@@ -61,41 +61,64 @@ airway_safety_assessment/
 
 ## Quick Start
 
-### Example 1: Basic Assessment
-
-```python
-from airway_safety_assessment import AirwaySafetyAssessment
-
-# Initialize assessment for Y711 airway
-assessment = AirwaySafetyAssessment('Y711')
-
-# Load or generate trajectory data
-trajectories = [...]  # Your ADS-B data
-
-# Process data
-parameters = assessment.process_trajectory_data(trajectories)
-
-# Conduct safety assessment
-results = assessment.assess_safety(parameters)
-
-# Generate report
-print(assessment.generate_report())
-```
-
-### Example 2: Run Interactive Demo
+### Example 1: Use Sample Data (Demo)
 
 ```bash
 cd examples
-python basic_assessment.py --interactive
-```
-
-### Example 3: Assess Specific Airway
-
-```bash
 python basic_assessment.py --airway Y711
 ```
 
-### Example 4: List Available Airways
+### Example 2: Use Real OpenSky Network Data ⭐
+
+```bash
+# With authentication (recommended - better rate limits)
+python realdata_assessment.py --airway Y711 --real-data \
+  --username YOUR_USERNAME --password YOUR_PASSWORD
+
+# Without authentication (limited rate)
+python realdata_assessment.py --airway Y711 --real-data
+```
+
+### Example 3: Python Code with Real Data
+
+```python
+from airway_safety_assessment import AirwaySafetyAssessment
+from airway_safety_assessment.data import OpenSkyClient, BoundingBoxHelper
+
+# Initialize OpenSky client
+client = OpenSkyClient(username='your_username', password='your_password')
+
+# Define route bounding box
+waypoints = [(126.5, 37.5), (127.5, 36.5)]  # (lon, lat)
+bbox = BoundingBoxHelper.create_route_bbox(waypoints, buffer_nm=50)
+
+# Collect real ADS-B data
+from datetime import datetime, timedelta
+end_time = datetime.now()
+start_time = end_time - timedelta(days=7)
+
+traffic = client.collect_route_traffic(
+    route_bbox=bbox,
+    start_datetime=start_time,
+    end_datetime=end_time,
+    interval_minutes=360
+)
+
+# Process and assess
+assessment = AirwaySafetyAssessment('Y711')
+parameters = assessment.process_trajectory_data(trajectories)
+results = assessment.assess_safety(parameters)
+
+print(assessment.generate_report())
+```
+
+### Example 4: Interactive Demo
+
+```bash
+python basic_assessment.py --interactive
+```
+
+### Example 5: List Available Airways
 
 ```bash
 python basic_assessment.py --list
@@ -156,14 +179,21 @@ Nay = Pi × Py(Sy) × Pz(0) × (λx / Sx) ×
 
 ## Data Sources
 
-### OpenSky Network
+### 1. OpenSky Network (Real ADS-B Data) ⭐ **Recommended**
 
-This system is designed to work with ADS-B data from [OpenSky Network](https://opensky-network.org/):
+실제 항공기 ADS-B 데이터를 사용하여 정확한 안전성 평가를 수행합니다.
 
+**장점:**
+- ✅ 실제 비행 궤적 데이터
+- ✅ 정확한 안전성 평가
+- ✅ 역사적 데이터 분석 가능
+- ✅ 실시간 모니터링 가능
+
+**사용 방법:**
 ```python
 from airway_safety_assessment.data import OpenSkyClient
 
-# Initialize client
+# Initialize client (authentication recommended for better rate limits)
 client = OpenSkyClient(username='your_username', password='your_password')
 
 # Collect data for route
@@ -171,11 +201,43 @@ bbox = (min_lat, max_lat, min_lon, max_lon)
 traffic = client.collect_route_traffic(bbox, start_date, end_date)
 ```
 
-### Alternative Data Sources
+**OpenSky Network 가입:**
+- Website: https://opensky-network.org/
+- Free account: 익명 접근 가능 (제한된 rate limit)
+- Registered account: 더 높은 rate limit, 더 많은 데이터 접근
 
-- FlightRadar24 (mentioned in original paper)
-- Local ADS-B receivers
-- Historical flight data archives
+**Rate Limits:**
+- Anonymous: 매우 제한적 (시간당 ~100 requests)
+- Registered: 시간당 ~400 requests
+- Academic/Research: 추가 접근 권한 신청 가능
+
+### 2. Sample Data (Simulation)
+
+개발 및 테스트를 위한 시뮬레이션 데이터입니다.
+
+**장점:**
+- ✅ 빠른 테스트
+- ✅ API 인증 불필요
+- ✅ 일관된 결과
+
+**단점:**
+- ⚠️ 실제 데이터 아님
+- ⚠️ 제한된 현실성
+
+**사용 방법:**
+```python
+from airway_safety_assessment.examples.basic_assessment import generate_sample_trajectories
+
+# Generate 100 sample flights
+trajectories = generate_sample_trajectories(config, num_flights=100)
+```
+
+### 3. Alternative Data Sources (향후 지원 예정)
+
+- **FlightRadar24**: 실시간 항공기 추적 (원 논문에서 사용)
+- **ADS-B Exchange**: 크라우드소싱 ADS-B 데이터
+- **Local ADS-B Receivers**: 자체 ADS-B 수신기 데이터
+- **Historical Flight Archives**: 과거 비행 데이터 아카이브
 
 ## Safety Assessment Workflow
 
