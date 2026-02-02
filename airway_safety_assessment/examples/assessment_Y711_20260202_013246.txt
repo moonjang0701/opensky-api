@@ -1,0 +1,35 @@
+
+======================================================================
+AIRWAY SAFETY ASSESSMENT REPORT
+항공로 안전성 평가 보고서
+======================================================================
+
+Airway: Y711
+Route Type: parallel
+Description: Domestic airway route
+
+======================================================================
+ASSESSMENT RESULTS
+======================================================================
+
+Collision Risk: 0.00e+00 per flight hour
+Target Level of Safety (TLS): 5.00e-09 per flight hour
+Risk Ratio (Risk/TLS): 0.0000
+
+Safety Status: ✓ MEETS SAFETY STANDARD
+Safety Level: Excellent
+Safety Margin: 5.00e-09
+
+======================================================================
+PARAMETERS USED
+======================================================================
+
+Pi: 0.034694
+Py_Sy: 0.000000
+Pz_0: 0.538000
+lambda_x: 0.026591
+Sx: 80.000000
+E_opp: 0.100000
+overlap_opp: 18615.590964
+
+======================================================================
