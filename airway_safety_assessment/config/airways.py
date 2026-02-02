@@ -9,11 +9,10 @@ Airway Configuration Module
 KOREAN_AIRWAYS = {
     'Y711': {
         'name': 'Y711',
-        'description': 'Domestic airway route',
+        'description': 'Domestic airway route (BULTI-MANGI)',
         'waypoints': [
-            {'name': 'OLMEN', 'lat': 37.5, 'lon': 126.5},
-            {'name': 'BULTI', 'lat': 36.5, 'lon': 127.5},
-            {'name': 'GIKDO', 'lat': 35.5, 'lon': 128.5},
+            {'name': 'BULTI', 'lat': 36.7228, 'lon': 126.8250},  # 36°43'22"N 126°49'30"E
+            {'name': 'MANGI', 'lat': 35.5031, 'lon': 126.7422},  # 35°30'11"N 126°44'32"E
         ],
         'separation_nm': 160.0,
         'type': 'parallel',
