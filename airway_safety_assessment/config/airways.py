@@ -82,6 +82,8 @@ def get_airway_config(airway_name: str) -> dict:
     """
     Get configuration for specific airway
     
+    Checks custom_airways.json first, then falls back to built-in config
+    
     Parameters:
     -----------
     airway_name : str
@@ -91,6 +93,21 @@ def get_airway_config(airway_name: str) -> dict:
     --------
     dict : Airway configuration
     """
+    import json
+    import os
+    
+    # Try loading custom airways first
+    custom_path = os.path.join(os.path.dirname(__file__), 'custom_airways.json')
+    if os.path.exists(custom_path):
+        try:
+            with open(custom_path, 'r', encoding='utf-8') as f:
+                custom_airways = json.load(f)
+                if airway_name in custom_airways:
+                    return custom_airways[airway_name]
+        except Exception:
+            pass
+    
+    # Fall back to built-in config
     return KOREAN_AIRWAYS.get(airway_name, {})
 
 
