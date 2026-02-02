@@ -19,7 +19,9 @@ from airway_safety_assessment.data.opensky_client import BoundingBoxHelper
 def simple_assessment(
     airway_name: str = 'Y711',
     use_real_data: bool = True,
-    days_back: int = 7
+    days_back: int = 7,
+    start_date: str = None,
+    end_date: str = None
 ):
     """
     Simple one-command assessment
@@ -33,6 +35,10 @@ def simple_assessment(
         Use real OpenSky data (default: True, NO AUTH NEEDED!)
     days_back : int
         Days of data to collect (default: 7)
+    start_date : str
+        Start date in YYYY-MM-DD format (e.g., '2020-01-01')
+    end_date : str
+        End date in YYYY-MM-DD format (e.g., '2020-12-31')
     """
     print(f"""
 ╔══════════════════════════════════════════════════════════════════════╗
@@ -42,7 +48,7 @@ def simple_assessment(
 
 평가 대상: {airway_name}
 데이터 소스: {'OpenSky Network (실제 데이터, 인증 불필요)' if use_real_data else '샘플 데이터'}
-수집 기간: 최근 {days_back}일
+수집 기간: {f'{start_date} ~ {end_date}' if start_date else f'최근 {days_back}일'}
     """)
     
     # Get config
@@ -76,8 +82,18 @@ def simple_assessment(
             bbox = BoundingBoxHelper.create_route_bbox(waypoint_coords, buffer_nm=50)
             
             # Set date range
-            end_time = datetime.now()
-            start_time = end_time - timedelta(days=days_back)
+            if start_date and end_date:
+                # Use custom date range
+                start_time = datetime.strptime(start_date, '%Y-%m-%d')
+                end_time = datetime.strptime(end_date, '%Y-%m-%d')
+            elif start_date:
+                # Start date only, use days_back
+                start_time = datetime.strptime(start_date, '%Y-%m-%d')
+                end_time = start_time + timedelta(days=days_back)
+            else:
+                # Default: recent days
+                end_time = datetime.now()
+                start_time = end_time - timedelta(days=days_back)
             
             print(f"📅 기간: {start_time.strftime('%Y-%m-%d')} ~ {end_time.strftime('%Y-%m-%d')}")
             print(f"🗺️  영역: Lat {bbox[0]:.2f}-{bbox[1]:.2f}, Lon {bbox[2]:.2f}-{bbox[3]:.2f}")
@@ -209,6 +225,12 @@ Examples:
   # 최근 30일 데이터로 평가
   python simple_assessment.py --airway Y711 --days 30
   
+  # 2020년 전체 데이터로 평가 ⭐
+  python simple_assessment.py --airway Y711 --start-date 2020-01-01 --end-date 2020-12-31
+  
+  # 2020년 1월 데이터로 평가
+  python simple_assessment.py --airway Y711 --start-date 2020-01-01 --end-date 2020-01-31
+  
   # 샘플 데이터로 빠른 테스트
   python simple_assessment.py --airway Y711 --sample
   
@@ -230,6 +252,18 @@ Examples:
         help='Days of data to collect (default: 7)'
     )
     parser.add_argument(
+        '--start-date',
+        type=str,
+        default=None,
+        help='Start date in YYYY-MM-DD format (e.g., 2020-01-01)'
+    )
+    parser.add_argument(
+        '--end-date',
+        type=str,
+        default=None,
+        help='End date in YYYY-MM-DD format (e.g., 2020-12-31)'
+    )
+    parser.add_argument(
         '--sample',
         action='store_true',
         help='Use sample data instead of real OpenSky data'
@@ -240,7 +274,9 @@ Examples:
     simple_assessment(
         airway_name=args.airway,
         use_real_data=not args.sample,
-        days_back=args.days
+        days_back=args.days,
+        start_date=args.start_date,
+        end_date=args.end_date
     )
     
     print(f"\n{'='*70}")
