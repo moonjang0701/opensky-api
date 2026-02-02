@@ -73,9 +73,11 @@ def simple_assessment(
         print(f"{'='*70}\n")
         
         try:
-            # Initialize OpenSky API (NO AUTH NEEDED!)
-            client = OpenSkyClient()  # ← 인증 없이 사용!
-            print("✅ OpenSky API 연결 (익명 접근)")
+            # Initialize OpenSky API with authentication
+            username = "wkdguswls022@gmail.com"
+            password = "Fyrk1864!"
+            client = OpenSkyClient(username=username, password=password)
+            print("✅ OpenSky API 연결 (인증됨: wkdguswls022@gmail.com)")
             
             # Create bounding box
             waypoint_coords = [(wp['lon'], wp['lat']) for wp in waypoints]
