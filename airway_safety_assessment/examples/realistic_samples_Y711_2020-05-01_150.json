@@ -1,0 +1,3909 @@
+{
+  "airway": "Y711",
+  "source": "realistic_sample_2020_statistics",
+  "reference": "Park et al. (2024)",
+  "generated_at": "2026-02-02T03:58:14.966151",
+  "count": 150,
+  "trajectories": [
+    {
+      "icao24": "7c0000",
+      "callsign": "A333000",
+      "aircraft_type": "A333",
+      "timestamp": 1588353540,
+      "time_str": "2020-05-01 17:19:00",
+      "positions": [
+        {
+          "latitude": 36.722272496743436,
+          "longitude": 126.83121196277438,
+          "altitude": 34464.538740177755,
+          "velocity": 457.87637186296416
+        },
+        {
+          "latitude": 35.5034660180654,
+          "longitude": 126.7373710522547,
+          "altitude": 33895.22195340539,
+          "velocity": 449.42304632250995
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 449.6896814585367,
+        "mean_altitude": 34380.250699350436,
+        "lateral_deviation": 0.036601806539731656
+      }
+    },
+    {
+      "icao24": "7c0001",
+      "callsign": "A320001",
+      "aircraft_type": "A320",
+      "timestamp": 1588350780,
+      "time_str": "2020-05-01 16:33:00",
+      "positions": [
+        {
+          "latitude": 36.7235282356317,
+          "longitude": 126.82625986469901,
+          "altitude": 35280.108358658894,
+          "velocity": 432.9673462341404
+        },
+        {
+          "latitude": 35.50331550692259,
+          "longitude": 126.7425213151634,
+          "altitude": 35441.47441477736,
+          "velocity": 445.3860155475718
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 444.43724110761116,
+        "mean_altitude": 33915.32857999485,
+        "lateral_deviation": 0.02155069225863959
+      }
+    },
+    {
+      "icao24": "7c0002",
+      "callsign": "B738002",
+      "aircraft_type": "B738",
+      "timestamp": 1588324320,
+      "time_str": "2020-05-01 09:12:00",
+      "positions": [
+        {
+          "latitude": 36.723653740849564,
+          "longitude": 126.81861496028172,
+          "altitude": 34776.79840145511,
+          "velocity": 475.62843900531794
+        },
+        {
+          "latitude": 35.50056413677253,
+          "longitude": 126.73890883520093,
+          "altitude": 35045.710588651644,
+          "velocity": 473.8049683693852
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 460.7558774281286,
+        "mean_altitude": 34529.53302599487,
+        "lateral_deviation": -0.2535863227474994
+      }
+    },
+    {
+      "icao24": "7c0003",
+      "callsign": "A320003",
+      "aircraft_type": "A320",
+      "timestamp": 1588363620,
+      "time_str": "2020-05-01 20:07:00",
+      "positions": [
+        {
+          "latitude": 36.72104229950711,
+          "longitude": 126.82252252595308,
+          "altitude": 32895.338537575524,
+          "velocity": 473.28982643050466
+        },
+        {
+          "latitude": 35.50176019806699,
+          "longitude": 126.74225241219888,
+          "altitude": 33271.33387513209,
+          "velocity": 465.3552020789459
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 463.47376226040626,
+        "mean_altitude": 32578.65186397766,
+        "lateral_deviation": -0.13398019330117214
+      }
+    },
+    {
+      "icao24": "7c0004",
+      "callsign": "A320004",
+      "aircraft_type": "A320",
+      "timestamp": 1588344300,
+      "time_str": "2020-05-01 14:45:00",
+      "positions": [
+        {
+          "latitude": 36.723333278849566,
+          "longitude": 126.82280713445249,
+          "altitude": 32279.16467260621,
+          "velocity": 441.3773840374768
+        },
+        {
+          "latitude": 35.50331462235541,
+          "longitude": 126.73701258127358,
+          "altitude": 31797.236353350134,
+          "velocity": 462.49711791334306
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 456.33841827250126,
+        "mean_altitude": 32261.04343490548,
+        "lateral_deviation": 0.021462235540973998
+      }
+    },
+    {
+      "icao24": "7c0005",
+      "callsign": "A333005",
+      "aircraft_type": "A333",
+      "timestamp": 1588349640,
+      "time_str": "2020-05-01 16:14:00",
+      "positions": [
+        {
+          "latitude": 36.72489372700586,
+          "longitude": 126.82787599027283,
+          "altitude": 37066.17701893837,
+          "velocity": 454.7998143019516
+        },
+        {
+          "latitude": 35.50134380685343,
+          "longitude": 126.74598794266538,
+          "altitude": 37395.598631425724,
+          "velocity": 460.7854283162813
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 459.66901307186475,
+        "mean_altitude": 37174.71657011392,
+        "lateral_deviation": -0.175619314657725
+      }
+    },
+    {
+      "icao24": "7c0006",
+      "callsign": "A321006",
+      "aircraft_type": "A321",
+      "timestamp": 1588326480,
+      "time_str": "2020-05-01 09:48:00",
+      "positions": [
+        {
+          "latitude": 36.721293261758355,
+          "longitude": 126.81429545433343,
+          "altitude": 33452.02318568154,
+          "velocity": 402.8069420308304
+        },
+        {
+          "latitude": 35.50315085530153,
+          "longitude": 126.73859020887977,
+          "altitude": 34330.981380862235,
+          "velocity": 414.54035648299913
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 418.7762620580445,
+        "mean_altitude": 34532.75015150746,
+        "lateral_deviation": 0.005085530152120065
+      }
+    },
+    {
+      "icao24": "7c0007",
+      "callsign": "B738007",
+      "aircraft_type": "B738",
+      "timestamp": 1588329660,
+      "time_str": "2020-05-01 10:41:00",
+      "positions": [
+        {
+          "latitude": 36.72122705145331,
+          "longitude": 126.81921425444504,
+          "altitude": 36901.24633126381,
+          "velocity": 444.87783918541453
+        },
+        {
+          "latitude": 35.50450524868386,
+          "longitude": 126.74450942391982,
+          "altitude": 37421.951941932755,
+          "velocity": 417.0014755523505
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 441.76177746360224,
+        "mean_altitude": 36967.60885913879,
+        "lateral_deviation": 0.1405248683859225
+      }
+    },
+    {
+      "icao24": "7c0008",
+      "callsign": "A320008",
+      "aircraft_type": "A320",
+      "timestamp": 1588344900,
+      "time_str": "2020-05-01 14:55:00",
+      "positions": [
+        {
+          "latitude": 36.72303046474826,
+          "longitude": 126.82666730291376,
+          "altitude": 34664.265461572366,
+          "velocity": 429.5564722357514
+        },
+        {
+          "latitude": 35.503368457797606,
+          "longitude": 126.74033389958899,
+          "altitude": 35190.490723802934,
+          "velocity": 433.29554500746076
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 445.36320747034017,
+        "mean_altitude": 35106.671099742816,
+        "lateral_deviation": 0.026845779760588315
+      }
+    },
+    {
+      "icao24": "7c0009",
+      "callsign": "A320009",
+      "aircraft_type": "A320",
+      "timestamp": 1588355040,
+      "time_str": "2020-05-01 17:44:00",
+      "positions": [
+        {
+          "latitude": 36.7225627709572,
+          "longitude": 126.81897887010264,
+          "altitude": 32380.415193826633,
+          "velocity": 429.1418836577755
+        },
+        {
+          "latitude": 35.50196657855018,
+          "longitude": 126.74348346532841,
+          "altitude": 32280.618126180285,
+          "velocity": 423.580927573787
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 424.95800038364547,
+        "mean_altitude": 32206.97482048101,
+        "lateral_deviation": -0.11334214498220632
+      }
+    },
+    {
+      "icao24": "7c000a",
+      "callsign": "A320010",
+      "aircraft_type": "A320",
+      "timestamp": 1588329240,
+      "time_str": "2020-05-01 10:34:00",
+      "positions": [
+        {
+          "latitude": 36.722213662020856,
+          "longitude": 126.81894201376015,
+          "altitude": 37525.458707932055,
+          "velocity": 432.529967566835
+        },
+        {
+          "latitude": 35.504159490796084,
+          "longitude": 126.73074850866065,
+          "altitude": 37100.20321685578,
+          "velocity": 423.93839108125724
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 434.73020211904156,
+        "mean_altitude": 37376.48291367108,
+        "lateral_deviation": 0.10594907960800469
+      }
+    },
+    {
+      "icao24": "7c000b",
+      "callsign": "B738011",
+      "aircraft_type": "B738",
+      "timestamp": 1588344060,
+      "time_str": "2020-05-01 14:41:00",
+      "positions": [
+        {
+          "latitude": 36.72755969390641,
+          "longitude": 126.818940801158,
+          "altitude": 33861.170564014865,
+          "velocity": 411.9373422819677
+        },
+        {
+          "latitude": 35.505488436587626,
+          "longitude": 126.7391907221879,
+          "altitude": 34736.16140790747,
+          "velocity": 413.86756176840356
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 412.5516491761983,
+        "mean_altitude": 33456.544540031755,
+        "lateral_deviation": 0.23884365876208183
+      }
+    },
+    {
+      "icao24": "7c000c",
+      "callsign": "B738012",
+      "aircraft_type": "B738",
+      "timestamp": 1588329180,
+      "time_str": "2020-05-01 10:33:00",
+      "positions": [
+        {
+          "latitude": 36.72007917715853,
+          "longitude": 126.82893225225543,
+          "altitude": 36162.676701816206,
+          "velocity": 405.16731253971057
+        },
+        {
+          "latitude": 35.50446884899344,
+          "longitude": 126.74377533901361,
+          "altitude": 35891.17561037699,
+          "velocity": 428.0218097901062
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 420.0627925916643,
+        "mean_altitude": 35635.92979279304,
+        "lateral_deviation": 0.13688489934378723
+      }
+    },
+    {
+      "icao24": "7c000d",
+      "callsign": "A321013",
+      "aircraft_type": "A321",
+      "timestamp": 1588352280,
+      "time_str": "2020-05-01 16:58:00",
+      "positions": [
+        {
+          "latitude": 36.72011847624133,
+          "longitude": 126.82252951586531,
+          "altitude": 36432.917258386326,
+          "velocity": 444.3388956538459
+        },
+        {
+          "latitude": 35.502393348676215,
+          "longitude": 126.7411790234776,
+          "altitude": 36229.1635024629,
+          "velocity": 458.9974072149311
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 449.563796735038,
+        "mean_altitude": 37014.13621646964,
+        "lateral_deviation": -0.07066513237901267
+      }
+    },
+    {
+      "icao24": "7c000e",
+      "callsign": "A320014",
+      "aircraft_type": "A320",
+      "timestamp": 1588352580,
+      "time_str": "2020-05-01 17:03:00",
+      "positions": [
+        {
+          "latitude": 36.721648497739274,
+          "longitude": 126.81622337120552,
+          "altitude": 35478.22056226937,
+          "velocity": 414.3023923112873
+        },
+        {
+          "latitude": 35.50243695162659,
+          "longitude": 126.73829550933267,
+          "altitude": 35640.51382338458,
+          "velocity": 417.47442024053316
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 421.5487180204391,
+        "mean_altitude": 35565.472786368045,
+        "lateral_deviation": -0.06630483734092153
+      }
+    },
+    {
+      "icao24": "7c000f",
+      "callsign": "A321015",
+      "aircraft_type": "A321",
+      "timestamp": 1588327800,
+      "time_str": "2020-05-01 10:10:00",
+      "positions": [
+        {
+          "latitude": 36.72286031444795,
+          "longitude": 126.82419772459097,
+          "altitude": 34653.46867972417,
+          "velocity": 468.07399781394497
+        },
+        {
+          "latitude": 35.50265225013076,
+          "longitude": 126.74743043571837,
+          "altitude": 34689.85721586418,
+          "velocity": 464.78895289382876
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 468.306830934306,
+        "mean_altitude": 35436.59965081817,
+        "lateral_deviation": -0.04477498692429616
+      }
+    },
+    {
+      "icao24": "7c0010",
+      "callsign": "B77W016",
+      "aircraft_type": "B77W",
+      "timestamp": 1588370220,
+      "time_str": "2020-05-01 21:57:00",
+      "positions": [
+        {
+          "latitude": 36.72389763263392,
+          "longitude": 126.83084252388083,
+          "altitude": 31292.859787665187,
+          "velocity": 471.275775302732
+        },
+        {
+          "latitude": 35.50286989818833,
+          "longitude": 126.74772423534672,
+          "altitude": 31491.869071801346,
+          "velocity": 457.41813816272173
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 466.46524842411816,
+        "mean_altitude": 31112.44539078894,
+        "lateral_deviation": -0.02301018116748339
+      }
+    },
+    {
+      "icao24": "7c0011",
+      "callsign": "B738017",
+      "aircraft_type": "B738",
+      "timestamp": 1588333980,
+      "time_str": "2020-05-01 11:53:00",
+      "positions": [
+        {
+          "latitude": 36.718789385561514,
+          "longitude": 126.81687808767758,
+          "altitude": 35587.45408340971,
+          "velocity": 440.2954126626054
+        },
+        {
+          "latitude": 35.50615569670015,
+          "longitude": 126.74200084283032,
+          "altitude": 36199.81108037523,
+          "velocity": 409.1712069005552
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 421.2630996403973,
+        "mean_altitude": 36299.94236851723,
+        "lateral_deviation": 0.3055696700143934
+      }
+    },
+    {
+      "icao24": "7c0012",
+      "callsign": "A321018",
+      "aircraft_type": "A321",
+      "timestamp": 1588352340,
+      "time_str": "2020-05-01 16:59:00",
+      "positions": [
+        {
+          "latitude": 36.71999961023721,
+          "longitude": 126.82159149963346,
+          "altitude": 32256.03901313235,
+          "velocity": 463.49019694509036
+        },
+        {
+          "latitude": 35.500698746927135,
+          "longitude": 126.7377725681264,
+          "altitude": 31433.050755082255,
+          "velocity": 453.09657995874755
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 444.6004295573547,
+        "mean_altitude": 32000.93486875748,
+        "lateral_deviation": -0.24012530728653061
+      }
+    },
+    {
+      "icao24": "7c0013",
+      "callsign": "A333019",
+      "aircraft_type": "A333",
+      "timestamp": 1588326600,
+      "time_str": "2020-05-01 09:50:00",
+      "positions": [
+        {
+          "latitude": 36.72183875574818,
+          "longitude": 126.82978086122613,
+          "altitude": 35320.64376338396,
+          "velocity": 461.40791667303375
+        },
+        {
+          "latitude": 35.50193658035002,
+          "longitude": 126.74506566316268,
+          "altitude": 35096.183880695615,
+          "velocity": 468.33451709471325
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 465.6700994457836,
+        "mean_altitude": 35221.1897402812,
+        "lateral_deviation": -0.11634196499814393
+      }
+    },
+    {
+      "icao24": "7c0014",
+      "callsign": "A333020",
+      "aircraft_type": "A333",
+      "timestamp": 1588349340,
+      "time_str": "2020-05-01 16:09:00",
+      "positions": [
+        {
+          "latitude": 36.72299346492242,
+          "longitude": 126.82574049566901,
+          "altitude": 34979.24418743895,
+          "velocity": 470.9690451438429
+        },
+        {
+          "latitude": 35.503620031014066,
+          "longitude": 126.74021342907865,
+          "altitude": 34122.100652380934,
+          "velocity": 488.3349044854136
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 487.5980073461444,
+        "mean_altitude": 34192.40900460432,
+        "lateral_deviation": 0.05200310140646805
+      }
+    },
+    {
+      "icao24": "7c0015",
+      "callsign": "B738021",
+      "aircraft_type": "B738",
+      "timestamp": 1588371000,
+      "time_str": "2020-05-01 22:10:00",
+      "positions": [
+        {
+          "latitude": 36.72087018627586,
+          "longitude": 126.83293983774928,
+          "altitude": 40047.15823905243,
+          "velocity": 422.7503566112418
+        },
+        {
+          "latitude": 35.50321324286381,
+          "longitude": 126.74371850982847,
+          "altitude": 40371.54909734188,
+          "velocity": 425.96568611238666
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 414.2317051163819,
+        "mean_altitude": 40000,
+        "lateral_deviation": 0.011324286380669499
+      }
+    },
+    {
+      "icao24": "7c0016",
+      "callsign": "B738022",
+      "aircraft_type": "B738",
+      "timestamp": 1588355400,
+      "time_str": "2020-05-01 17:50:00",
+      "positions": [
+        {
+          "latitude": 36.72193638914793,
+          "longitude": 126.82574964717544,
+          "altitude": 38511.47875994787,
+          "velocity": 424.9152870523695
+        },
+        {
+          "latitude": 35.504009733811635,
+          "longitude": 126.73908616317614,
+          "altitude": 37575.55301488412,
+          "velocity": 422.1784748212098
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 439.7675012882747,
+        "mean_altitude": 38207.711319226626,
+        "lateral_deviation": 0.09097338116324367
+      }
+    },
+    {
+      "icao24": "7c0017",
+      "callsign": "A320023",
+      "aircraft_type": "A320",
+      "timestamp": 1588350420,
+      "time_str": "2020-05-01 16:27:00",
+      "positions": [
+        {
+          "latitude": 36.7214958672394,
+          "longitude": 126.82411830004203,
+          "altitude": 38155.18044128493,
+          "velocity": 425.73444657676237
+        },
+        {
+          "latitude": 35.499923546190445,
+          "longitude": 126.7416058632961,
+          "altitude": 38009.055961841805,
+          "velocity": 431.8055052604696
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 426.6739030093581,
+        "mean_altitude": 37848.35873711012,
+        "lateral_deviation": -0.31764538095568934
+      }
+    },
+    {
+      "icao24": "7c0018",
+      "callsign": "A333024",
+      "aircraft_type": "A333",
+      "timestamp": 1588355400,
+      "time_str": "2020-05-01 17:50:00",
+      "positions": [
+        {
+          "latitude": 36.72335317355362,
+          "longitude": 126.8286799642417,
+          "altitude": 34116.706206120405,
+          "velocity": 459.9961255880963
+        },
+        {
+          "latitude": 35.503924328091934,
+          "longitude": 126.75274982371813,
+          "altitude": 34191.539059595205,
+          "velocity": 477.131348571958
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 473.20591470351377,
+        "mean_altitude": 34170.46577513596,
+        "lateral_deviation": 0.08243280919283032
+      }
+    },
+    {
+      "icao24": "7c0019",
+      "callsign": "A320025",
+      "aircraft_type": "A320",
+      "timestamp": 1588324680,
+      "time_str": "2020-05-01 09:18:00",
+      "positions": [
+        {
+          "latitude": 36.7240361598016,
+          "longitude": 126.81847485427062,
+          "altitude": 32663.38174758773,
+          "velocity": 443.9864482589576
+        },
+        {
+          "latitude": 35.50361166899831,
+          "longitude": 126.74235366401366,
+          "altitude": 33099.01719816365,
+          "velocity": 431.0258076324414
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 434.8807647434749,
+        "mean_altitude": 33355.76662874769,
+        "lateral_deviation": 0.05116689983068523
+      }
+    },
+    {
+      "icao24": "7c001a",
+      "callsign": "A320026",
+      "aircraft_type": "A320",
+      "timestamp": 1588371360,
+      "time_str": "2020-05-01 22:16:00",
+      "positions": [
+        {
+          "latitude": 36.72334090132744,
+          "longitude": 126.824413145888,
+          "altitude": 32808.98025577106,
+          "velocity": 476.71737502632976
+        },
+        {
+          "latitude": 35.504085505061624,
+          "longitude": 126.73341133229445,
+          "altitude": 34530.029546813574,
+          "velocity": 506.41306863724304
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 492.8557179674211,
+        "mean_altitude": 33827.30582207607,
+        "lateral_deviation": 0.09855050616198936
+      }
+    },
+    {
+      "icao24": "7c001b",
+      "callsign": "B738027",
+      "aircraft_type": "B738",
+      "timestamp": 1588350000,
+      "time_str": "2020-05-01 16:20:00",
+      "positions": [
+        {
+          "latitude": 36.72088018573415,
+          "longitude": 126.83776741648421,
+          "altitude": 34562.8169174317,
+          "velocity": 421.99806659770627
+        },
+        {
+          "latitude": 35.50252236520532,
+          "longitude": 126.75002179359177,
+          "altitude": 34482.76832317022,
+          "velocity": 428.40027042676167
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 431.38263939731,
+        "mean_altitude": 34279.16108847006,
+        "lateral_deviation": -0.05776347946812724
+      }
+    },
+    {
+      "icao24": "7c001c",
+      "callsign": "B738028",
+      "aircraft_type": "B738",
+      "timestamp": 1588348620,
+      "time_str": "2020-05-01 15:57:00",
+      "positions": [
+        {
+          "latitude": 36.72186115861407,
+          "longitude": 126.82131982715342,
+          "altitude": 33282.90739388604,
+          "velocity": 445.43411912637407
+        },
+        {
+          "latitude": 35.50295197383114,
+          "longitude": 126.7379214457029,
+          "altitude": 34616.144731183,
+          "velocity": 402.13679944926815
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 412.634305849276,
+        "mean_altitude": 33634.581595034644,
+        "lateral_deviation": -0.014802616886728483
+      }
+    },
+    {
+      "icao24": "7c001d",
+      "callsign": "A321029",
+      "aircraft_type": "A321",
+      "timestamp": 1588330260,
+      "time_str": "2020-05-01 10:51:00",
+      "positions": [
+        {
+          "latitude": 36.720636729537496,
+          "longitude": 126.82448873125276,
+          "altitude": 33563.90149660072,
+          "velocity": 404.9687828617811
+        },
+        {
+          "latitude": 35.50144772428503,
+          "longitude": 126.74476343055507,
+          "altitude": 32860.09510321161,
+          "velocity": 415.57577549491975
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 424.81194429935425,
+        "mean_altitude": 33095.71978290438,
+        "lateral_deviation": -0.16522757149713785
+      }
+    },
+    {
+      "icao24": "7c001e",
+      "callsign": "B77W030",
+      "aircraft_type": "B77W",
+      "timestamp": 1588349520,
+      "time_str": "2020-05-01 16:12:00",
+      "positions": [
+        {
+          "latitude": 36.7246010565236,
+          "longitude": 126.82511169975263,
+          "altitude": 37016.05523062713,
+          "velocity": 450.89527203663573
+        },
+        {
+          "latitude": 35.50442528883153,
+          "longitude": 126.73826094029315,
+          "altitude": 36704.76492474851,
+          "velocity": 443.96483397712734
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 449.5711421958578,
+        "mean_altitude": 37297.58635383639,
+        "lateral_deviation": 0.13252888315229835
+      }
+    },
+    {
+      "icao24": "7c001f",
+      "callsign": "B738031",
+      "aircraft_type": "B738",
+      "timestamp": 1588364940,
+      "time_str": "2020-05-01 20:29:00",
+      "positions": [
+        {
+          "latitude": 36.7232652864923,
+          "longitude": 126.8294836303612,
+          "altitude": 37452.88511948324,
+          "velocity": 427.7368428036906
+        },
+        {
+          "latitude": 35.504788289782496,
+          "longitude": 126.74268100558486,
+          "altitude": 38066.55460648876,
+          "velocity": 428.3570712979755
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 427.73977228721543,
+        "mean_altitude": 38393.91998977063,
+        "lateral_deviation": 0.16882897824927115
+      }
+    },
+    {
+      "icao24": "7c0020",
+      "callsign": "B738032",
+      "aircraft_type": "B738",
+      "timestamp": 1588342380,
+      "time_str": "2020-05-01 14:13:00",
+      "positions": [
+        {
+          "latitude": 36.72482672425397,
+          "longitude": 126.82743945078995,
+          "altitude": 34381.39952760369,
+          "velocity": 466.1005321511968
+        },
+        {
+          "latitude": 35.50438389635491,
+          "longitude": 126.7425936205993,
+          "altitude": 34659.43206393768,
+          "velocity": 474.69770190895144
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 466.697008523658,
+        "mean_altitude": 34614.09109347289,
+        "lateral_deviation": 0.12838963549078197
+      }
+    },
+    {
+      "icao24": "7c0021",
+      "callsign": "A321033",
+      "aircraft_type": "A321",
+      "timestamp": 1588342500,
+      "time_str": "2020-05-01 14:15:00",
+      "positions": [
+        {
+          "latitude": 36.72005435426984,
+          "longitude": 126.83297359770823,
+          "altitude": 36800.8521177704,
+          "velocity": 435.4497849669726
+        },
+        {
+          "latitude": 35.50029840997085,
+          "longitude": 126.74238134159084,
+          "altitude": 34635.489771633715,
+          "velocity": 437.97295717916126
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 440.38417514685415,
+        "mean_altitude": 34946.7151204529,
+        "lateral_deviation": -0.28015900291523455
+      }
+    },
+    {
+      "icao24": "7c0022",
+      "callsign": "A320034",
+      "aircraft_type": "A320",
+      "timestamp": 1588344720,
+      "time_str": "2020-05-01 14:52:00",
+      "positions": [
+        {
+          "latitude": 36.72276786814652,
+          "longitude": 126.82413905951663,
+          "altitude": 32496.27892182343,
+          "velocity": 436.59817189972773
+        },
+        {
+          "latitude": 35.50587992294992,
+          "longitude": 126.74073336137924,
+          "altitude": 32994.16600899907,
+          "velocity": 441.55062823315006
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 429.31064436473065,
+        "mean_altitude": 32860.90450891427,
+        "lateral_deviation": 0.2779922949919169
+      }
+    },
+    {
+      "icao24": "7c0023",
+      "callsign": "B77W035",
+      "aircraft_type": "B77W",
+      "timestamp": 1588350660,
+      "time_str": "2020-05-01 16:31:00",
+      "positions": [
+        {
+          "latitude": 36.72334750226242,
+          "longitude": 126.82271441884468,
+          "altitude": 38839.57993418473,
+          "velocity": 474.56429599690625
+        },
+        {
+          "latitude": 35.505047578718504,
+          "longitude": 126.7457742730962,
+          "altitude": 39288.07918357081,
+          "velocity": 465.9578965284448
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 473.23118625939736,
+        "mean_altitude": 38889.99263981338,
+        "lateral_deviation": 0.19475787185013707
+      }
+    },
+    {
+      "icao24": "7c0024",
+      "callsign": "A320036",
+      "aircraft_type": "A320",
+      "timestamp": 1588327500,
+      "time_str": "2020-05-01 10:05:00",
+      "positions": [
+        {
+          "latitude": 36.72309043552364,
+          "longitude": 126.83015580323666,
+          "altitude": 28991.35866498717,
+          "velocity": 425.6670365763692
+        },
+        {
+          "latitude": 35.50518027708905,
+          "longitude": 126.73635587011128,
+          "altitude": 30798.948515884116,
+          "velocity": 442.56634309354337
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 428.92252911294366,
+        "mean_altitude": 30683.664004772767,
+        "lateral_deviation": 0.20802770890521968
+      }
+    },
+    {
+      "icao24": "7c0025",
+      "callsign": "B77W037",
+      "aircraft_type": "B77W",
+      "timestamp": 1588340280,
+      "time_str": "2020-05-01 13:38:00",
+      "positions": [
+        {
+          "latitude": 36.72309845636883,
+          "longitude": 126.8182623658371,
+          "altitude": 35365.747564836834,
+          "velocity": 434.9242292096755
+        },
+        {
+          "latitude": 35.50160441502458,
+          "longitude": 126.73934826331087,
+          "altitude": 33651.672169633275,
+          "velocity": 429.7389363322894
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 438.46595271653877,
+        "mean_altitude": 34827.54735742511,
+        "lateral_deviation": -0.14955849754238526
+      }
+    },
+    {
+      "icao24": "7c0026",
+      "callsign": "A320038",
+      "aircraft_type": "A320",
+      "timestamp": 1588338600,
+      "time_str": "2020-05-01 13:10:00",
+      "positions": [
+        {
+          "latitude": 36.72162906858225,
+          "longitude": 126.82416143302507,
+          "altitude": 35803.569753405834,
+          "velocity": 408.1644484811154
+        },
+        {
+          "latitude": 35.50185534403817,
+          "longitude": 126.73950649247061,
+          "altitude": 36483.57985092979,
+          "velocity": 405.11275114065353
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 403.6575534775843,
+        "mean_altitude": 35655.21833913666,
+        "lateral_deviation": -0.12446559618340021
+      }
+    },
+    {
+      "icao24": "7c0027",
+      "callsign": "B738039",
+      "aircraft_type": "B738",
+      "timestamp": 1588324980,
+      "time_str": "2020-05-01 09:23:00",
+      "positions": [
+        {
+          "latitude": 36.72308424864738,
+          "longitude": 126.82575559392427,
+          "altitude": 36028.205280909235,
+          "velocity": 441.7241700052856
+        },
+        {
+          "latitude": 35.50408719277911,
+          "longitude": 126.7407992363901,
+          "altitude": 36402.41759699222,
+          "velocity": 414.03843405398084
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 431.671941913342,
+        "mean_altitude": 37065.537164045665,
+        "lateral_deviation": 0.09871927791035272
+      }
+    },
+    {
+      "icao24": "7c0028",
+      "callsign": "B738040",
+      "aircraft_type": "B738",
+      "timestamp": 1588353420,
+      "time_str": "2020-05-01 17:17:00",
+      "positions": [
+        {
+          "latitude": 36.72313012501832,
+          "longitude": 126.82053728969971,
+          "altitude": 37702.28037448221,
+          "velocity": 451.35663369166076
+        },
+        {
+          "latitude": 35.50420081163762,
+          "longitude": 126.73823051142959,
+          "altitude": 37727.58608204709,
+          "velocity": 470.63867097153803
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 468.2426551486324,
+        "mean_altitude": 37003.965308538114,
+        "lateral_deviation": 0.11008116376108165
+      }
+    },
+    {
+      "icao24": "7c0029",
+      "callsign": "B738041",
+      "aircraft_type": "B738",
+      "timestamp": 1588324680,
+      "time_str": "2020-05-01 09:18:00",
+      "positions": [
+        {
+          "latitude": 36.72597179720474,
+          "longitude": 126.82135943731475,
+          "altitude": 34950.30767111621,
+          "velocity": 396.6889631247368
+        },
+        {
+          "latitude": 35.502936710235765,
+          "longitude": 126.74530453943014,
+          "altitude": 34974.26877729757,
+          "velocity": 411.31803798461766
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 403.67219083597155,
+        "mean_altitude": 34977.10619164936,
+        "lateral_deviation": -0.016328976423870673
+      }
+    },
+    {
+      "icao24": "7c002a",
+      "callsign": "A321042",
+      "aircraft_type": "A321",
+      "timestamp": 1588350840,
+      "time_str": "2020-05-01 16:34:00",
+      "positions": [
+        {
+          "latitude": 36.72261565282733,
+          "longitude": 126.82622371995049,
+          "altitude": 35322.84973055964,
+          "velocity": 463.01729533135267
+        },
+        {
+          "latitude": 35.50527488701772,
+          "longitude": 126.73843100958646,
+          "altitude": 35129.900283615294,
+          "velocity": 439.4439355981045
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 439.90382251426905,
+        "mean_altitude": 35005.92336285832,
+        "lateral_deviation": 0.2174887017714447
+      }
+    },
+    {
+      "icao24": "7c002b",
+      "callsign": "A320043",
+      "aircraft_type": "A320",
+      "timestamp": 1588314420,
+      "time_str": "2020-05-01 06:27:00",
+      "positions": [
+        {
+          "latitude": 36.72661760660464,
+          "longitude": 126.8304617123177,
+          "altitude": 34427.19823231789,
+          "velocity": 427.89559486724227
+        },
+        {
+          "latitude": 35.502473096968814,
+          "longitude": 126.73519512759685,
+          "altitude": 34405.255170989694,
+          "velocity": 438.7339963280936
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 426.1287824564009,
+        "mean_altitude": 34684.956209342,
+        "lateral_deviation": -0.06269030311933516
+      }
+    },
+    {
+      "icao24": "7c002c",
+      "callsign": "B77W044",
+      "aircraft_type": "B77W",
+      "timestamp": 1588349640,
+      "time_str": "2020-05-01 16:14:00",
+      "positions": [
+        {
+          "latitude": 36.72296148932037,
+          "longitude": 126.81732252847407,
+          "altitude": 35757.92442314186,
+          "velocity": 456.3654181051677
+        },
+        {
+          "latitude": 35.50306585463578,
+          "longitude": 126.75242989720492,
+          "altitude": 35507.231952901166,
+          "velocity": 437.93172861637
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 451.5128339156778,
+        "mean_altitude": 36188.444806430896,
+        "lateral_deviation": -0.0034145364227196667
+      }
+    },
+    {
+      "icao24": "7c002d",
+      "callsign": "B738045",
+      "aircraft_type": "B738",
+      "timestamp": 1588333620,
+      "time_str": "2020-05-01 11:47:00",
+      "positions": [
+        {
+          "latitude": 36.72331888004311,
+          "longitude": 126.81612056114368,
+          "altitude": 37377.661929609465,
+          "velocity": 490.9169186711763
+        },
+        {
+          "latitude": 35.50374075964771,
+          "longitude": 126.74165819334449,
+          "altitude": 37063.1799075274,
+          "velocity": 482.301979546124
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 484.13107228351976,
+        "mean_altitude": 37343.37406226395,
+        "lateral_deviation": 0.0640759647712032
+      }
+    },
+    {
+      "icao24": "7c002e",
+      "callsign": "A321046",
+      "aircraft_type": "A321",
+      "timestamp": 1588331880,
+      "time_str": "2020-05-01 11:18:00",
+      "positions": [
+        {
+          "latitude": 36.72345654670453,
+          "longitude": 126.83052087604756,
+          "altitude": 34418.84241267235,
+          "velocity": 457.6817869957289
+        },
+        {
+          "latitude": 35.50531807043717,
+          "longitude": 126.73628207634077,
+          "altitude": 34093.35652893167,
+          "velocity": 471.36529966821394
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 471.60774177940647,
+        "mean_altitude": 34366.93605554453,
+        "lateral_deviation": 0.22180704371685436
+      }
+    },
+    {
+      "icao24": "7c002f",
+      "callsign": "A321047",
+      "aircraft_type": "A321",
+      "timestamp": 1588344120,
+      "time_str": "2020-05-01 14:42:00",
+      "positions": [
+        {
+          "latitude": 36.72211305491698,
+          "longitude": 126.83143791863671,
+          "altitude": 37539.563456632655,
+          "velocity": 445.1216998966596
+        },
+        {
+          "latitude": 35.50303213004508,
+          "longitude": 126.74716798208554,
+          "altitude": 37071.0480844029,
+          "velocity": 453.7869504111733
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 452.3796264617726,
+        "mean_altitude": 37590.153337051524,
+        "lateral_deviation": -0.006786995492221199
+      }
+    },
+    {
+      "icao24": "7c0030",
+      "callsign": "A321048",
+      "aircraft_type": "A321",
+      "timestamp": 1588318260,
+      "time_str": "2020-05-01 07:31:00",
+      "positions": [
+        {
+          "latitude": 36.72348877535257,
+          "longitude": 126.81596571548414,
+          "altitude": 35101.25414320661,
+          "velocity": 466.7749262382936
+        },
+        {
+          "latitude": 35.501889597879945,
+          "longitude": 126.73833932121956,
+          "altitude": 34867.9293384216,
+          "velocity": 452.88886170729324
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 468.5582164884446,
+        "mean_altitude": 35194.07921410573,
+        "lateral_deviation": -0.12104021200560683
+      }
+    },
+    {
+      "icao24": "7c0031",
+      "callsign": "B738049",
+      "aircraft_type": "B738",
+      "timestamp": 1588314600,
+      "time_str": "2020-05-01 06:30:00",
+      "positions": [
+        {
+          "latitude": 36.724808736038874,
+          "longitude": 126.82842864442166,
+          "altitude": 37469.92837920555,
+          "velocity": 424.72814332963577
+        },
+        {
+          "latitude": 35.50237885065253,
+          "longitude": 126.74915516025862,
+          "altitude": 36233.060983479656,
+          "velocity": 402.4380197149185
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 408.082670833835,
+        "mean_altitude": 37271.501569306456,
+        "lateral_deviation": -0.07211493474691934
+      }
+    },
+    {
+      "icao24": "7c0032",
+      "callsign": "A321050",
+      "aircraft_type": "A321",
+      "timestamp": 1588354860,
+      "time_str": "2020-05-01 17:41:00",
+      "positions": [
+        {
+          "latitude": 36.72401416009889,
+          "longitude": 126.82469694159481,
+          "altitude": 33315.51400744002,
+          "velocity": 446.5604724070175
+        },
+        {
+          "latitude": 35.503838438271266,
+          "longitude": 126.73399674515996,
+          "altitude": 34484.84100275039,
+          "velocity": 466.50782436169544
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 458.5368824371261,
+        "mean_altitude": 33971.23279993728,
+        "lateral_deviation": 0.07384382712623556
+      }
+    },
+    {
+      "icao24": "7c0033",
+      "callsign": "A321051",
+      "aircraft_type": "A321",
+      "timestamp": 1588333440,
+      "time_str": "2020-05-01 11:44:00",
+      "positions": [
+        {
+          "latitude": 36.72334050800285,
+          "longitude": 126.82654806276331,
+          "altitude": 37656.00104220503,
+          "velocity": 441.74388270041527
+        },
+        {
+          "latitude": 35.50098752616694,
+          "longitude": 126.73135483523394,
+          "altitude": 37814.47335281004,
+          "velocity": 441.1338317997847
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 436.0176836707717,
+        "mean_altitude": 37497.8780323093,
+        "lateral_deviation": -0.21124738330673073
+      }
+    },
+    {
+      "icao24": "7c0034",
+      "callsign": "B738052",
+      "aircraft_type": "B738",
+      "timestamp": 1588332480,
+      "time_str": "2020-05-01 11:28:00",
+      "positions": [
+        {
+          "latitude": 36.7220365223538,
+          "longitude": 126.81939143555009,
+          "altitude": 37873.905092547924,
+          "velocity": 450.8912436739357
+        },
+        {
+          "latitude": 35.50174513774202,
+          "longitude": 126.75114781145808,
+          "altitude": 37488.72869596136,
+          "velocity": 448.45961876533295
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 451.82360561984956,
+        "mean_altitude": 37632.64034708434,
+        "lateral_deviation": -0.13548622579803887
+      }
+    },
+    {
+      "icao24": "7c0035",
+      "callsign": "A321053",
+      "aircraft_type": "A321",
+      "timestamp": 1588350300,
+      "time_str": "2020-05-01 16:25:00",
+      "positions": [
+        {
+          "latitude": 36.72287811308749,
+          "longitude": 126.82127016716323,
+          "altitude": 36258.59642957551,
+          "velocity": 449.2294756180149
+        },
+        {
+          "latitude": 35.504627876823086,
+          "longitude": 126.74311523914953,
+          "altitude": 34913.21447780498,
+          "velocity": 466.89055114574165
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 453.60010345884916,
+        "mean_altitude": 35718.24106743209,
+        "lateral_deviation": 0.15278768230802175
+      }
+    },
+    {
+      "icao24": "7c0036",
+      "callsign": "B77W054",
+      "aircraft_type": "B77W",
+      "timestamp": 1588352640,
+      "time_str": "2020-05-01 17:04:00",
+      "positions": [
+        {
+          "latitude": 36.72456997986422,
+          "longitude": 126.81573822204345,
+          "altitude": 38401.49183817452,
+          "velocity": 460.272443611348
+        },
+        {
+          "latitude": 35.50470711586039,
+          "longitude": 126.7374735568907,
+          "altitude": 37713.04005692215,
+          "velocity": 448.47016517375704
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 453.0907147538898,
+        "mean_altitude": 37756.26360040145,
+        "lateral_deviation": 0.1607115860390142
+      }
+    },
+    {
+      "icao24": "7c0037",
+      "callsign": "A333055",
+      "aircraft_type": "A333",
+      "timestamp": 1588333080,
+      "time_str": "2020-05-01 11:38:00",
+      "positions": [
+        {
+          "latitude": 36.72360868791412,
+          "longitude": 126.82643999557092,
+          "altitude": 36083.179537653086,
+          "velocity": 429.6311196126077
+        },
+        {
+          "latitude": 35.50107787203576,
+          "longitude": 126.73708900412916,
+          "altitude": 36473.03514864372,
+          "velocity": 445.89179304060957
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 454.22330767961955,
+        "mean_altitude": 35960.28731778387,
+        "lateral_deviation": -0.20221279642444404
+      }
+    },
+    {
+      "icao24": "7c0038",
+      "callsign": "B738056",
+      "aircraft_type": "B738",
+      "timestamp": 1588348620,
+      "time_str": "2020-05-01 15:57:00",
+      "positions": [
+        {
+          "latitude": 36.72478802305883,
+          "longitude": 126.82181678608445,
+          "altitude": 35444.52916038425,
+          "velocity": 427.73619355211
+        },
+        {
+          "latitude": 35.50541156910652,
+          "longitude": 126.74837648895114,
+          "altitude": 36363.529453321134,
+          "velocity": 430.2378389004702
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 425.47809645000484,
+        "mean_altitude": 35992.377459789124,
+        "lateral_deviation": 0.23115691065196303
+      }
+    },
+    {
+      "icao24": "7c0039",
+      "callsign": "A333057",
+      "aircraft_type": "A333",
+      "timestamp": 1588332900,
+      "time_str": "2020-05-01 11:35:00",
+      "positions": [
+        {
+          "latitude": 36.72219638723817,
+          "longitude": 126.81745635925792,
+          "altitude": 35666.51462386237,
+          "velocity": 482.8850463659024
+        },
+        {
+          "latitude": 35.502259415638015,
+          "longitude": 126.74545449385208,
+          "altitude": 36650.74676521105,
+          "velocity": 470.5380693274556
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 479.23938123435613,
+        "mean_altitude": 36494.149997954526,
+        "lateral_deviation": -0.08405843619914877
+      }
+    },
+    {
+      "icao24": "7c003a",
+      "callsign": "A320058",
+      "aircraft_type": "A320",
+      "timestamp": 1588342980,
+      "time_str": "2020-05-01 14:23:00",
+      "positions": [
+        {
+          "latitude": 36.72173061865013,
+          "longitude": 126.83802400735196,
+          "altitude": 35343.0032485936,
+          "velocity": 458.70179226043825
+        },
+        {
+          "latitude": 35.50431338998608,
+          "longitude": 126.74046646029223,
+          "altitude": 35879.64285203943,
+          "velocity": 446.332479958323
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 455.02233916414485,
+        "mean_altitude": 35657.42652331207,
+        "lateral_deviation": 0.12133899860801615
+      }
+    },
+    {
+      "icao24": "7c003b",
+      "callsign": "B77W059",
+      "aircraft_type": "B77W",
+      "timestamp": 1588325640,
+      "time_str": "2020-05-01 09:34:00",
+      "positions": [
+        {
+          "latitude": 36.72141045263081,
+          "longitude": 126.82702007607443,
+          "altitude": 32573.640539077696,
+          "velocity": 433.66470412625415
+        },
+        {
+          "latitude": 35.50216252077839,
+          "longitude": 126.74199762366997,
+          "altitude": 32726.55772613499,
+          "velocity": 407.8930722575622
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 427.2752903906087,
+        "mean_altitude": 32368.68337501363,
+        "lateral_deviation": -0.09374792216141407
+      }
+    },
+    {
+      "icao24": "7c003c",
+      "callsign": "A320060",
+      "aircraft_type": "A320",
+      "timestamp": 1588351500,
+      "time_str": "2020-05-01 16:45:00",
+      "positions": [
+        {
+          "latitude": 36.72226952036829,
+          "longitude": 126.82563013916057,
+          "altitude": 35929.374770364695,
+          "velocity": 454.5764202637254
+        },
+        {
+          "latitude": 35.502434179350296,
+          "longitude": 126.74244778607752,
+          "altitude": 35826.58424924097,
+          "velocity": 456.25044288410874
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 443.4060978878945,
+        "mean_altitude": 35121.354263474415,
+        "lateral_deviation": -0.06658206497083015
+      }
+    },
+    {
+      "icao24": "7c003d",
+      "callsign": "B738061",
+      "aircraft_type": "B738",
+      "timestamp": 1588339920,
+      "time_str": "2020-05-01 13:32:00",
+      "positions": [
+        {
+          "latitude": 36.72228266844556,
+          "longitude": 126.82226986136764,
+          "altitude": 34262.02305661981,
+          "velocity": 506.6454468919303
+        },
+        {
+          "latitude": 35.50234740609716,
+          "longitude": 126.72921363024423,
+          "altitude": 33950.79659885992,
+          "velocity": 507.03739381825045
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 500,
+        "mean_altitude": 34499.98916891331,
+        "lateral_deviation": -0.07525939028471035
+      }
+    },
+    {
+      "icao24": "7c003e",
+      "callsign": "A320062",
+      "aircraft_type": "A320",
+      "timestamp": 1588355100,
+      "time_str": "2020-05-01 17:45:00",
+      "positions": [
+        {
+          "latitude": 36.7220350368063,
+          "longitude": 126.8332453943405,
+          "altitude": 39782.469746601215,
+          "velocity": 419.63492866316574
+        },
+        {
+          "latitude": 35.50286515202484,
+          "longitude": 126.74343316730717,
+          "altitude": 39048.11390889374,
+          "velocity": 413.61166199687943
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 421.79547694977225,
+        "mean_altitude": 38861.563363073685,
+        "lateral_deviation": -0.023484797516318805
+      }
+    },
+    {
+      "icao24": "7c003f",
+      "callsign": "B738063",
+      "aircraft_type": "B738",
+      "timestamp": 1588331400,
+      "time_str": "2020-05-01 11:10:00",
+      "positions": [
+        {
+          "latitude": 36.7196147441238,
+          "longitude": 126.82686775367631,
+          "altitude": 34491.28175161511,
+          "velocity": 438.34134936164656
+        },
+        {
+          "latitude": 35.50318019785503,
+          "longitude": 126.73349884796592,
+          "altitude": 33827.22435653492,
+          "velocity": 449.2414458338455
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 438.5964363747198,
+        "mean_altitude": 33433.3668403215,
+        "lateral_deviation": 0.008019785502719248
+      }
+    },
+    {
+      "icao24": "7c0040",
+      "callsign": "B738064",
+      "aircraft_type": "B738",
+      "timestamp": 1588364400,
+      "time_str": "2020-05-01 20:20:00",
+      "positions": [
+        {
+          "latitude": 36.724754989803856,
+          "longitude": 126.83972219858909,
+          "altitude": 34344.57409907405,
+          "velocity": 438.65351938567693
+        },
+        {
+          "latitude": 35.50228887249575,
+          "longitude": 126.74228384594669,
+          "altitude": 34572.691070329995,
+          "velocity": 460.7340540270967
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 446.40014485771314,
+        "mean_altitude": 34653.835073108996,
+        "lateral_deviation": -0.08111275042578703
+      }
+    },
+    {
+      "icao24": "7c0041",
+      "callsign": "A321065",
+      "aircraft_type": "A321",
+      "timestamp": 1588355220,
+      "time_str": "2020-05-01 17:47:00",
+      "positions": [
+        {
+          "latitude": 36.72468466045882,
+          "longitude": 126.830862755338,
+          "altitude": 35716.77740787368,
+          "velocity": 411.48747171591435
+        },
+        {
+          "latitude": 35.50303130082694,
+          "longitude": 126.74905083056642,
+          "altitude": 34991.41116614914,
+          "velocity": 427.85669789233106
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 424.7917454772116,
+        "mean_altitude": 35148.70275555989,
+        "lateral_deviation": -0.006869917306170621
+      }
+    },
+    {
+      "icao24": "7c0042",
+      "callsign": "A321066",
+      "aircraft_type": "A321",
+      "timestamp": 1588349100,
+      "time_str": "2020-05-01 16:05:00",
+      "positions": [
+        {
+          "latitude": 36.723446583578216,
+          "longitude": 126.8249206492352,
+          "altitude": 33237.60966933143,
+          "velocity": 485.96955687221265
+        },
+        {
+          "latitude": 35.50289730985021,
+          "longitude": 126.74556550510924,
+          "altitude": 34085.46223202185,
+          "velocity": 466.04940176447
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 480.76475993085506,
+        "mean_altitude": 33511.46978041839,
+        "lateral_deviation": -0.020269014979051075
+      }
+    },
+    {
+      "icao24": "7c0043",
+      "callsign": "A321067",
+      "aircraft_type": "A321",
+      "timestamp": 1588346040,
+      "time_str": "2020-05-01 15:14:00",
+      "positions": [
+        {
+          "latitude": 36.72267130867981,
+          "longitude": 126.82093529050678,
+          "altitude": 36489.3585491217,
+          "velocity": 416.90723641809024
+        },
+        {
+          "latitude": 35.50215098281556,
+          "longitude": 126.7432766408819,
+          "altitude": 36885.45641595012,
+          "velocity": 429.41376009672547
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 418.4377727264567,
+        "mean_altitude": 36563.492655332055,
+        "lateral_deviation": -0.09490171844439341
+      }
+    },
+    {
+      "icao24": "7c0044",
+      "callsign": "B738068",
+      "aircraft_type": "B738",
+      "timestamp": 1588334700,
+      "time_str": "2020-05-01 12:05:00",
+      "positions": [
+        {
+          "latitude": 36.72162386924105,
+          "longitude": 126.83045216710309,
+          "altitude": 36376.97975661988,
+          "velocity": 441.0775008728945
+        },
+        {
+          "latitude": 35.50626411698538,
+          "longitude": 126.74163801570991,
+          "altitude": 35804.88265887594,
+          "velocity": 443.2532766513588
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 430.1383234647,
+        "mean_altitude": 36097.911772660904,
+        "lateral_deviation": 0.3164116985374167
+      }
+    },
+    {
+      "icao24": "7c0045",
+      "callsign": "A320069",
+      "aircraft_type": "A320",
+      "timestamp": 1588373160,
+      "time_str": "2020-05-01 22:46:00",
+      "positions": [
+        {
+          "latitude": 36.72139710717455,
+          "longitude": 126.82674032802447,
+          "altitude": 29842.548302350922,
+          "velocity": 461.2464690348702
+        },
+        {
+          "latitude": 35.50244852636308,
+          "longitude": 126.740364802528,
+          "altitude": 30650.629598548938,
+          "velocity": 454.7342707604547
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 459.0432003478743,
+        "mean_altitude": 30148.272482785218,
+        "lateral_deviation": -0.06514736369215648
+      }
+    },
+    {
+      "icao24": "7c0046",
+      "callsign": "B77W070",
+      "aircraft_type": "B77W",
+      "timestamp": 1588354080,
+      "time_str": "2020-05-01 17:28:00",
+      "positions": [
+        {
+          "latitude": 36.724612063829724,
+          "longitude": 126.8306085645703,
+          "altitude": 34515.25968545452,
+          "velocity": 389.00174447362036
+        },
+        {
+          "latitude": 35.50610157962618,
+          "longitude": 126.73857501881561,
+          "altitude": 34664.77293589175,
+          "velocity": 421.7538042613089
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 408.8953265402685,
+        "mean_altitude": 34093.195556381164,
+        "lateral_deviation": 0.30015796261802286
+      }
+    },
+    {
+      "icao24": "7c0047",
+      "callsign": "A320071",
+      "aircraft_type": "A320",
+      "timestamp": 1588346760,
+      "time_str": "2020-05-01 15:26:00",
+      "positions": [
+        {
+          "latitude": 36.72615067343906,
+          "longitude": 126.81765056606412,
+          "altitude": 31335.444454342676,
+          "velocity": 444.8597269740036
+        },
+        {
+          "latitude": 35.50288855255865,
+          "longitude": 126.74374112391847,
+          "altitude": 29860.415937516937,
+          "velocity": 449.4265370482592
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 443.8524099780368,
+        "mean_altitude": 30701.7917519273,
+        "lateral_deviation": -0.02114474413495534
+      }
+    },
+    {
+      "icao24": "7c0048",
+      "callsign": "A321072",
+      "aircraft_type": "A321",
+      "timestamp": 1588347420,
+      "time_str": "2020-05-01 15:37:00",
+      "positions": [
+        {
+          "latitude": 36.720092193938,
+          "longitude": 126.82640719645889,
+          "altitude": 34823.00808250708,
+          "velocity": 464.9835633999671
+        },
+        {
+          "latitude": 35.505718038187375,
+          "longitude": 126.74646410005427,
+          "altitude": 34575.78524681679,
+          "velocity": 468.36143514550935
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 468.51886478217887,
+        "mean_altitude": 34869.32901194504,
+        "lateral_deviation": 0.26180381873681674
+      }
+    },
+    {
+      "icao24": "7c0049",
+      "callsign": "B738073",
+      "aircraft_type": "B738",
+      "timestamp": 1588342380,
+      "time_str": "2020-05-01 14:13:00",
+      "positions": [
+        {
+          "latitude": 36.72548261043323,
+          "longitude": 126.82163543327408,
+          "altitude": 39840.389831607834,
+          "velocity": 464.990330530486
+        },
+        {
+          "latitude": 35.504197890525994,
+          "longitude": 126.74402866366485,
+          "altitude": 39615.71032845332,
+          "velocity": 454.0307947886208
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 466.96212214368023,
+        "mean_altitude": 39144.211594360386,
+        "lateral_deviation": 0.10978905259916734
+      }
+    },
+    {
+      "icao24": "7c004a",
+      "callsign": "A320074",
+      "aircraft_type": "A320",
+      "timestamp": 1588326600,
+      "time_str": "2020-05-01 09:50:00",
+      "positions": [
+        {
+          "latitude": 36.72293470553191,
+          "longitude": 126.82226777697961,
+          "altitude": 36264.162354144195,
+          "velocity": 444.5956626343292
+        },
+        {
+          "latitude": 35.50092923799826,
+          "longitude": 126.74012175411254,
+          "altitude": 36232.407130055,
+          "velocity": 448.09770821355005
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 452.4530501414794,
+        "mean_altitude": 36122.79136932517,
+        "lateral_deviation": -0.21707620017500545
+      }
+    },
+    {
+      "icao24": "7c004b",
+      "callsign": "A333075",
+      "aircraft_type": "A333",
+      "timestamp": 1588324560,
+      "time_str": "2020-05-01 09:16:00",
+      "positions": [
+        {
+          "latitude": 36.72323803736958,
+          "longitude": 126.8269345479097,
+          "altitude": 33234.615266280234,
+          "velocity": 463.35273226099275
+        },
+        {
+          "latitude": 35.50145703147732,
+          "longitude": 126.73695051476957,
+          "altitude": 32846.40034199461,
+          "velocity": 462.21965536375643
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 455.75436463345517,
+        "mean_altitude": 33159.96361600293,
+        "lateral_deviation": -0.16429685226793003
+      }
+    },
+    {
+      "icao24": "7c004c",
+      "callsign": "A320076",
+      "aircraft_type": "A320",
+      "timestamp": 1588354620,
+      "time_str": "2020-05-01 17:37:00",
+      "positions": [
+        {
+          "latitude": 36.7224007286969,
+          "longitude": 126.82123924361949,
+          "altitude": 38129.46748829934,
+          "velocity": 446.35912934391746
+        },
+        {
+          "latitude": 35.50613281406851,
+          "longitude": 126.74398855450266,
+          "altitude": 38962.44498319954,
+          "velocity": 448.50925319476687
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 446.6077095032893,
+        "mean_altitude": 37722.232154541896,
+        "lateral_deviation": 0.3032814068507845
+      }
+    },
+    {
+      "icao24": "7c004d",
+      "callsign": "A320077",
+      "aircraft_type": "A320",
+      "timestamp": 1588345620,
+      "time_str": "2020-05-01 15:07:00",
+      "positions": [
+        {
+          "latitude": 36.723995122294305,
+          "longitude": 126.82810893591976,
+          "altitude": 35403.974827001366,
+          "velocity": 450.54792445939626
+        },
+        {
+          "latitude": 35.50514002143668,
+          "longitude": 126.73102803563197,
+          "altitude": 35079.32547307143,
+          "velocity": 453.11983926284523
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 451.5432146853642,
+        "mean_altitude": 35355.61056689059,
+        "lateral_deviation": 0.20400214366757002
+      }
+    },
+    {
+      "icao24": "7c004e",
+      "callsign": "A320078",
+      "aircraft_type": "A320",
+      "timestamp": 1588339200,
+      "time_str": "2020-05-01 13:20:00",
+      "positions": [
+        {
+          "latitude": 36.722092450122304,
+          "longitude": 126.82341673746605,
+          "altitude": 33686.82847885231,
+          "velocity": 407.0856173672658
+        },
+        {
+          "latitude": 35.501581896153745,
+          "longitude": 126.74568758022976,
+          "altitude": 33424.25632383608,
+          "velocity": 406.66393015630797
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 419.2732885009377,
+        "mean_altitude": 33535.76837049772,
+        "lateral_deviation": -0.15181038462600518
+      }
+    },
+    {
+      "icao24": "7c004f",
+      "callsign": "B738079",
+      "aircraft_type": "B738",
+      "timestamp": 1588323600,
+      "time_str": "2020-05-01 09:00:00",
+      "positions": [
+        {
+          "latitude": 36.72295240172415,
+          "longitude": 126.82825682118737,
+          "altitude": 34894.221480932516,
+          "velocity": 456.7190926139863
+        },
+        {
+          "latitude": 35.49949234953429,
+          "longitude": 126.74206471747064,
+          "altitude": 33979.25904424681,
+          "velocity": 456.7378873994732
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 459.9035508759298,
+        "mean_altitude": 33873.18350214477,
+        "lateral_deviation": -0.36076504657091596
+      }
+    },
+    {
+      "icao24": "7c0050",
+      "callsign": "A321080",
+      "aircraft_type": "A321",
+      "timestamp": 1588362240,
+      "time_str": "2020-05-01 19:44:00",
+      "positions": [
+        {
+          "latitude": 36.721690724014614,
+          "longitude": 126.83185130822,
+          "altitude": 35188.5596212879,
+          "velocity": 423.9808571746289
+        },
+        {
+          "latitude": 35.50083147226722,
+          "longitude": 126.74343585338491,
+          "altitude": 32966.018818272954,
+          "velocity": 451.4675652905597
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 438.6438389205637,
+        "mean_altitude": 34322.635184799445,
+        "lateral_deviation": -0.22685277327844816
+      }
+    },
+    {
+      "icao24": "7c0051",
+      "callsign": "B738081",
+      "aircraft_type": "B738",
+      "timestamp": 1588355460,
+      "time_str": "2020-05-01 17:51:00",
+      "positions": [
+        {
+          "latitude": 36.72310190796739,
+          "longitude": 126.82383148217505,
+          "altitude": 35688.118391979646,
+          "velocity": 499.8460672478975
+        },
+        {
+          "latitude": 35.5009298924423,
+          "longitude": 126.73931587570185,
+          "altitude": 35439.79939820236,
+          "velocity": 504.42876272919887
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 498.21530020735764,
+        "mean_altitude": 35969.67775995105,
+        "lateral_deviation": -0.21701075577055987
+      }
+    },
+    {
+      "icao24": "7c0052",
+      "callsign": "B738082",
+      "aircraft_type": "B738",
+      "timestamp": 1588346640,
+      "time_str": "2020-05-01 15:24:00",
+      "positions": [
+        {
+          "latitude": 36.7217455836506,
+          "longitude": 126.8211834452496,
+          "altitude": 36706.464369982416,
+          "velocity": 495.6221294721918
+        },
+        {
+          "latitude": 35.502868332178835,
+          "longitude": 126.74816432255147,
+          "altitude": 37361.487385470195,
+          "velocity": 479.7884375861752
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 482.8563058874382,
+        "mean_altitude": 36789.33442701641,
+        "lateral_deviation": -0.023166782116542037
+      }
+    },
+    {
+      "icao24": "7c0053",
+      "callsign": "B738083",
+      "aircraft_type": "B738",
+      "timestamp": 1588350600,
+      "time_str": "2020-05-01 16:30:00",
+      "positions": [
+        {
+          "latitude": 36.722741923353965,
+          "longitude": 126.82432594206712,
+          "altitude": 31040.156773031358,
+          "velocity": 411.91401068075976
+        },
+        {
+          "latitude": 35.50283007935125,
+          "longitude": 126.73970354904385,
+          "altitude": 31605.95375058344,
+          "velocity": 389.4141969220898
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 400,
+        "mean_altitude": 31716.965697522173,
+        "lateral_deviation": -0.026992064875238357
+      }
+    },
+    {
+      "icao24": "7c0054",
+      "callsign": "A320084",
+      "aircraft_type": "A320",
+      "timestamp": 1588348980,
+      "time_str": "2020-05-01 16:03:00",
+      "positions": [
+        {
+          "latitude": 36.72194571606399,
+          "longitude": 126.82307323068183,
+          "altitude": 34196.61415536132,
+          "velocity": 462.23019127127856
+        },
+        {
+          "latitude": 35.50471656569403,
+          "longitude": 126.75099954565086,
+          "altitude": 33972.02273206685,
+          "velocity": 457.0419890269953
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 455.814988338713,
+        "mean_altitude": 34300.904713693046,
+        "lateral_deviation": 0.16165656940268427
+      }
+    },
+    {
+      "icao24": "7c0055",
+      "callsign": "A321085",
+      "aircraft_type": "A321",
+      "timestamp": 1588346700,
+      "time_str": "2020-05-01 15:25:00",
+      "positions": [
+        {
+          "latitude": 36.72365795880116,
+          "longitude": 126.82589718923579,
+          "altitude": 35902.437017236545,
+          "velocity": 434.761550563661
+        },
+        {
+          "latitude": 35.50028428753708,
+          "longitude": 126.74055638276384,
+          "altitude": 36469.39202690254,
+          "velocity": 421.78916926378395
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 434.69181793448047,
+        "mean_altitude": 35642.07292004903,
+        "lateral_deviation": -0.28157124629235925
+      }
+    },
+    {
+      "icao24": "7c0056",
+      "callsign": "B738086",
+      "aircraft_type": "B738",
+      "timestamp": 1588354440,
+      "time_str": "2020-05-01 17:34:00",
+      "positions": [
+        {
+          "latitude": 36.72052743830761,
+          "longitude": 126.83148967583598,
+          "altitude": 34520.25956941922,
+          "velocity": 471.1107231142794
+        },
+        {
+          "latitude": 35.50323752817505,
+          "longitude": 126.73787304662129,
+          "altitude": 34981.056856174335,
+          "velocity": 468.883982470044
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 471.83567940137425,
+        "mean_altitude": 34125.12779711699,
+        "lateral_deviation": 0.013752817504413232
+      }
+    },
+    {
+      "icao24": "7c0057",
+      "callsign": "B77W087",
+      "aircraft_type": "B77W",
+      "timestamp": 1588352460,
+      "time_str": "2020-05-01 17:01:00",
+      "positions": [
+        {
+          "latitude": 36.72317193199343,
+          "longitude": 126.82483040497536,
+          "altitude": 35100.455847254445,
+          "velocity": 480.0395992973384
+        },
+        {
+          "latitude": 35.504386943377995,
+          "longitude": 126.73818587050675,
+          "altitude": 36108.35950579352,
+          "velocity": 471.39244386756457
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 467.6773888549564,
+        "mean_altitude": 35046.337982409874,
+        "lateral_deviation": 0.12869433779896106
+      }
+    },
+    {
+      "icao24": "7c0058",
+      "callsign": "A321088",
+      "aircraft_type": "A321",
+      "timestamp": 1588344660,
+      "time_str": "2020-05-01 14:51:00",
+      "positions": [
+        {
+          "latitude": 36.72228879962499,
+          "longitude": 126.82951917771791,
+          "altitude": 36664.40158756505,
+          "velocity": 429.9557140718174
+        },
+        {
+          "latitude": 35.502722875028304,
+          "longitude": 126.74546556447525,
+          "altitude": 36971.77760727022,
+          "velocity": 426.7421913236155
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 434.3487556246852,
+        "mean_altitude": 36173.88190427889,
+        "lateral_deviation": -0.03771249716955559
+      }
+    },
+    {
+      "icao24": "7c0059",
+      "callsign": "B738089",
+      "aircraft_type": "B738",
+      "timestamp": 1588327500,
+      "time_str": "2020-05-01 10:05:00",
+      "positions": [
+        {
+          "latitude": 36.72229174785779,
+          "longitude": 126.82603713757706,
+          "altitude": 32890.98542532353,
+          "velocity": 485.15213420383225
+        },
+        {
+          "latitude": 35.50542811934251,
+          "longitude": 126.74173130329704,
+          "altitude": 31996.53792970634,
+          "velocity": 487.7021560398355
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 481.8566854628596,
+        "mean_altitude": 32945.51857867651,
+        "lateral_deviation": 0.2328119342506565
+      }
+    },
+    {
+      "icao24": "7c005a",
+      "callsign": "B738090",
+      "aircraft_type": "B738",
+      "timestamp": 1588343580,
+      "time_str": "2020-05-01 14:33:00",
+      "positions": [
+        {
+          "latitude": 36.72238722418283,
+          "longitude": 126.82300671733654,
+          "altitude": 34999.64322402545,
+          "velocity": 485.0030927546898
+        },
+        {
+          "latitude": 35.50448348656189,
+          "longitude": 126.74212405558212,
+          "altitude": 35945.91406650347,
+          "velocity": 480.2974869533207
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 488.2261384368705,
+        "mean_altitude": 36295.97110018021,
+        "lateral_deviation": 0.13834865618875627
+      }
+    },
+    {
+      "icao24": "7c005b",
+      "callsign": "B738091",
+      "aircraft_type": "B738",
+      "timestamp": 1588327140,
+      "time_str": "2020-05-01 09:59:00",
+      "positions": [
+        {
+          "latitude": 36.72212384949271,
+          "longitude": 126.82231258303771,
+          "altitude": 34404.96932895405,
+          "velocity": 410.3272285612435
+        },
+        {
+          "latitude": 35.50258591113189,
+          "longitude": 126.74208608827402,
+          "altitude": 34995.74908426693,
+          "velocity": 404.6197844450134
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 400,
+        "mean_altitude": 35206.50098416423,
+        "lateral_deviation": -0.05140888681140015
+      }
+    },
+    {
+      "icao24": "7c005c",
+      "callsign": "A321092",
+      "aircraft_type": "A321",
+      "timestamp": 1588360380,
+      "time_str": "2020-05-01 19:13:00",
+      "positions": [
+        {
+          "latitude": 36.7239955816179,
+          "longitude": 126.8200183998818,
+          "altitude": 31218.174311040704,
+          "velocity": 495.4901915830874
+        },
+        {
+          "latitude": 35.50111112961478,
+          "longitude": 126.73451134081421,
+          "altitude": 31601.702509393985,
+          "velocity": 476.67894008829774
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 463.2538585841368,
+        "mean_altitude": 31761.754977840632,
+        "lateral_deviation": -0.1988870385226325
+      }
+    },
+    {
+      "icao24": "7c005d",
+      "callsign": "A321093",
+      "aircraft_type": "A321",
+      "timestamp": 1588362480,
+      "time_str": "2020-05-01 19:48:00",
+      "positions": [
+        {
+          "latitude": 36.72465974593729,
+          "longitude": 126.82386330276277,
+          "altitude": 29672.764743604654,
+          "velocity": 473.89162160948274
+        },
+        {
+          "latitude": 35.5034246847211,
+          "longitude": 126.73692866169671,
+          "altitude": 29587.081462495546,
+          "velocity": 485.2758497088425
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 475.58943702598276,
+        "mean_altitude": 30000,
+        "lateral_deviation": 0.03246847210920644
+      }
+    },
+    {
+      "icao24": "7c005e",
+      "callsign": "B738094",
+      "aircraft_type": "B738",
+      "timestamp": 1588354020,
+      "time_str": "2020-05-01 17:27:00",
+      "positions": [
+        {
+          "latitude": 36.72252931377294,
+          "longitude": 126.82326396494949,
+          "altitude": 32606.50917356746,
+          "velocity": 435.51904955838415
+        },
+        {
+          "latitude": 35.502780378482406,
+          "longitude": 126.74077996191846,
+          "altitude": 33426.85541656128,
+          "velocity": 435.7377107759203
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 437.38030614341096,
+        "mean_altitude": 33329.81599571138,
+        "lateral_deviation": -0.03196215176010044
+      }
+    },
+    {
+      "icao24": "7c005f",
+      "callsign": "A320095",
+      "aircraft_type": "A320",
+      "timestamp": 1588349400,
+      "time_str": "2020-05-01 16:10:00",
+      "positions": [
+        {
+          "latitude": 36.72350880772628,
+          "longitude": 126.81464070420809,
+          "altitude": 39736.936072534336,
+          "velocity": 471.33996438823664
+        },
+        {
+          "latitude": 35.5035482673632,
+          "longitude": 126.74211437855276,
+          "altitude": 38956.31995418409,
+          "velocity": 484.8358488894581
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 481.2549034191154,
+        "mean_altitude": 39040.39795329537,
+        "lateral_deviation": 0.044826736319433395
+      }
+    },
+    {
+      "icao24": "7c0060",
+      "callsign": "B77W096",
+      "aircraft_type": "B77W",
+      "timestamp": 1588354620,
+      "time_str": "2020-05-01 17:37:00",
+      "positions": [
+        {
+          "latitude": 36.72449710770333,
+          "longitude": 126.82486964510821,
+          "altitude": 34538.699923960085,
+          "velocity": 441.5755195626385
+        },
+        {
+          "latitude": 35.503099385635274,
+          "longitude": 126.72934601227476,
+          "altitude": 33805.34319979152,
+          "velocity": 431.22658634129726
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 442.82405266192103,
+        "mean_altitude": 34393.262057768196,
+        "lateral_deviation": -6.143647268219108e-05
+      }
+    },
+    {
+      "icao24": "7c0061",
+      "callsign": "A333097",
+      "aircraft_type": "A333",
+      "timestamp": 1588342380,
+      "time_str": "2020-05-01 14:13:00",
+      "positions": [
+        {
+          "latitude": 36.72495334767528,
+          "longitude": 126.82113507456698,
+          "altitude": 34249.93549290309,
+          "velocity": 443.00073595495934
+        },
+        {
+          "latitude": 35.50631257411142,
+          "longitude": 126.74122230799678,
+          "altitude": 34148.28081687345,
+          "velocity": 434.4734496180002
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 437.95606903362784,
+        "mean_altitude": 34378.86250608549,
+        "lateral_deviation": 0.32125741114141515
+      }
+    },
+    {
+      "icao24": "7c0062",
+      "callsign": "A321098",
+      "aircraft_type": "A321",
+      "timestamp": 1588324020,
+      "time_str": "2020-05-01 09:07:00",
+      "positions": [
+        {
+          "latitude": 36.72539560215908,
+          "longitude": 126.82501046550652,
+          "altitude": 35205.49503193811,
+          "velocity": 427.0738000197987
+        },
+        {
+          "latitude": 35.500659793698965,
+          "longitude": 126.73858994327475,
+          "altitude": 35544.333582569925,
+          "velocity": 401.4107550220346
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 422.26605828538914,
+        "mean_altitude": 35370.12798213362,
+        "lateral_deviation": -0.24402063010398234
+      }
+    },
+    {
+      "icao24": "7c0063",
+      "callsign": "B738099",
+      "aircraft_type": "B738",
+      "timestamp": 1588344840,
+      "time_str": "2020-05-01 14:54:00",
+      "positions": [
+        {
+          "latitude": 36.72370503928566,
+          "longitude": 126.82762782693973,
+          "altitude": 36515.1106898232,
+          "velocity": 423.70876801626906
+        },
+        {
+          "latitude": 35.50587210180216,
+          "longitude": 126.74088017773562,
+          "altitude": 36555.89943507631,
+          "velocity": 417.6414799849839
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 428.4656865898966,
+        "mean_altitude": 36662.534646682536,
+        "lateral_deviation": 0.27721018021563665
+      }
+    },
+    {
+      "icao24": "7c0064",
+      "callsign": "A321100",
+      "aircraft_type": "A321",
+      "timestamp": 1588353840,
+      "time_str": "2020-05-01 17:24:00",
+      "positions": [
+        {
+          "latitude": 36.71983112479375,
+          "longitude": 126.82359512392344,
+          "altitude": 35369.56761892256,
+          "velocity": 463.6837565790837
+        },
+        {
+          "latitude": 35.502738012536604,
+          "longitude": 126.74764988453084,
+          "altitude": 34414.746640514975,
+          "velocity": 455.31145228936697
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 472.5933356442437,
+        "mean_altitude": 35070.34081386357,
+        "lateral_deviation": -0.036198746339780374
+      }
+    },
+    {
+      "icao24": "7c0065",
+      "callsign": "B738101",
+      "aircraft_type": "B738",
+      "timestamp": 1588331100,
+      "time_str": "2020-05-01 11:05:00",
+      "positions": [
+        {
+          "latitude": 36.722234214181114,
+          "longitude": 126.82273476721458,
+          "altitude": 34331.455032114245,
+          "velocity": 463.22603420571096
+        },
+        {
+          "latitude": 35.502807135296955,
+          "longitude": 126.7399858478311,
+          "altitude": 34829.78708248544,
+          "velocity": 454.96523706666153
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 459.68302609049994,
+        "mean_altitude": 34999.118093522855,
+        "lateral_deviation": -0.029286470305142028
+      }
+    },
+    {
+      "icao24": "7c0066",
+      "callsign": "A333102",
+      "aircraft_type": "A333",
+      "timestamp": 1588331220,
+      "time_str": "2020-05-01 11:07:00",
+      "positions": [
+        {
+          "latitude": 36.72260890654045,
+          "longitude": 126.81863755841262,
+          "altitude": 35433.22568366478,
+          "velocity": 461.5997821953212
+        },
+        {
+          "latitude": 35.50010894824882,
+          "longitude": 126.74514600611275,
+          "altitude": 35462.68296235585,
+          "velocity": 482.68562987115047
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 473.5629729995482,
+        "mean_altitude": 36123.14890506653,
+        "lateral_deviation": -0.2991051751184091
+      }
+    },
+    {
+      "icao24": "7c0067",
+      "callsign": "A320103",
+      "aircraft_type": "A320",
+      "timestamp": 1588370100,
+      "time_str": "2020-05-01 21:55:00",
+      "positions": [
+        {
+          "latitude": 36.721443576474464,
+          "longitude": 126.82626272599173,
+          "altitude": 34139.219921087664,
+          "velocity": 441.9651075651682
+        },
+        {
+          "latitude": 35.50216626258591,
+          "longitude": 126.74327709924562,
+          "altitude": 34143.3988830797,
+          "velocity": 448.5454953712955
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 441.77832313765504,
+        "mean_altitude": 33574.960920631005,
+        "lateral_deviation": -0.09337374140930008
+      }
+    },
+    {
+      "icao24": "7c0068",
+      "callsign": "A321104",
+      "aircraft_type": "A321",
+      "timestamp": 1588366080,
+      "time_str": "2020-05-01 20:48:00",
+      "positions": [
+        {
+          "latitude": 36.72308860125757,
+          "longitude": 126.82384011281852,
+          "altitude": 30172.38168328864,
+          "velocity": 471.5823726930333
+        },
+        {
+          "latitude": 35.50403949808018,
+          "longitude": 126.73998170358463,
+          "altitude": 31193.524241278552,
+          "velocity": 469.58309269099414
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 474.91894009210773,
+        "mean_altitude": 30000,
+        "lateral_deviation": 0.09394980801796256
+      }
+    },
+    {
+      "icao24": "7c0069",
+      "callsign": "B77W105",
+      "aircraft_type": "B77W",
+      "timestamp": 1588371900,
+      "time_str": "2020-05-01 22:25:00",
+      "positions": [
+        {
+          "latitude": 36.72363562517023,
+          "longitude": 126.82511420153438,
+          "altitude": 34148.36410372934,
+          "velocity": 435.25957237517525
+        },
+        {
+          "latitude": 35.50446484764986,
+          "longitude": 126.74261223092685,
+          "altitude": 34412.73999351541,
+          "velocity": 415.59173116384494
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 423.5931424412261,
+        "mean_altitude": 33935.37567789535,
+        "lateral_deviation": 0.1364847649854849
+      }
+    },
+    {
+      "icao24": "7c006a",
+      "callsign": "A333106",
+      "aircraft_type": "A333",
+      "timestamp": 1588324560,
+      "time_str": "2020-05-01 09:16:00",
+      "positions": [
+        {
+          "latitude": 36.72221391395189,
+          "longitude": 126.82709167364105,
+          "altitude": 33362.23447917766,
+          "velocity": 458.95921233730394
+        },
+        {
+          "latitude": 35.49867419720362,
+          "longitude": 126.74636237919219,
+          "altitude": 33879.227501609595,
+          "velocity": 454.7597155136275
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 451.62553085330904,
+        "mean_altitude": 33289.60888812866,
+        "lateral_deviation": -0.4425802796380751
+      }
+    },
+    {
+      "icao24": "7c006b",
+      "callsign": "A321107",
+      "aircraft_type": "A321",
+      "timestamp": 1588313520,
+      "time_str": "2020-05-01 06:12:00",
+      "positions": [
+        {
+          "latitude": 36.721733106784676,
+          "longitude": 126.83454708229638,
+          "altitude": 35219.29872544208,
+          "velocity": 479.24938018949024
+        },
+        {
+          "latitude": 35.50365532863587,
+          "longitude": 126.74237545035884,
+          "altitude": 35316.27878393273,
+          "velocity": 475.0288812602109
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 479.3539830276508,
+        "mean_altitude": 35516.19339947975,
+        "lateral_deviation": 0.055532863587222814
+      }
+    },
+    {
+      "icao24": "7c006c",
+      "callsign": "A320108",
+      "aircraft_type": "A320",
+      "timestamp": 1588324620,
+      "time_str": "2020-05-01 09:17:00",
+      "positions": [
+        {
+          "latitude": 36.72316216595566,
+          "longitude": 126.83392558356691,
+          "altitude": 34494.910196977085,
+          "velocity": 468.1550592702218
+        },
+        {
+          "latitude": 35.505416879735144,
+          "longitude": 126.74518668193575,
+          "altitude": 34988.733523720664,
+          "velocity": 472.80963257192263
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 461.6874711711911,
+        "mean_altitude": 34179.335059343764,
+        "lateral_deviation": 0.23168797351374826
+      }
+    },
+    {
+      "icao24": "7c006d",
+      "callsign": "A320109",
+      "aircraft_type": "A320",
+      "timestamp": 1588344360,
+      "time_str": "2020-05-01 14:46:00",
+      "positions": [
+        {
+          "latitude": 36.722939631949345,
+          "longitude": 126.82240154470146,
+          "altitude": 34740.31777282225,
+          "velocity": 487.52321158049403
+        },
+        {
+          "latitude": 35.50491854268396,
+          "longitude": 126.74300820344594,
+          "altitude": 35174.10775210269,
+          "velocity": 504.2722420827867
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 486.1356680305894,
+        "mean_altitude": 35079.0794606352,
+        "lateral_deviation": 0.18185426839540808
+      }
+    },
+    {
+      "icao24": "7c006e",
+      "callsign": "A333110",
+      "aircraft_type": "A333",
+      "timestamp": 1588329300,
+      "time_str": "2020-05-01 10:35:00",
+      "positions": [
+        {
+          "latitude": 36.72436364560055,
+          "longitude": 126.83551217966243,
+          "altitude": 36570.057586850024,
+          "velocity": 487.13111505221775
+        },
+        {
+          "latitude": 35.50579435726088,
+          "longitude": 126.73342391004998,
+          "altitude": 35075.72513315409,
+          "velocity": 487.8472560394495
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 484.3828852776211,
+        "mean_altitude": 35603.76725916237,
+        "lateral_deviation": 0.2694357260880668
+      }
+    },
+    {
+      "icao24": "7c006f",
+      "callsign": "A320111",
+      "aircraft_type": "A320",
+      "timestamp": 1588367160,
+      "time_str": "2020-05-01 21:06:00",
+      "positions": [
+        {
+          "latitude": 36.72604786739344,
+          "longitude": 126.82559535630547,
+          "altitude": 36491.0032438659,
+          "velocity": 449.46479512325
+        },
+        {
+          "latitude": 35.50078965438784,
+          "longitude": 126.74376348906334,
+          "altitude": 35970.31210375461,
+          "velocity": 459.05045289082534
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 457.1834216756028,
+        "mean_altitude": 36118.23178272497,
+        "lateral_deviation": -0.23103456121665783
+      }
+    },
+    {
+      "icao24": "7c0070",
+      "callsign": "A321112",
+      "aircraft_type": "A321",
+      "timestamp": 1588372260,
+      "time_str": "2020-05-01 22:31:00",
+      "positions": [
+        {
+          "latitude": 36.72331527539021,
+          "longitude": 126.82090792638249,
+          "altitude": 31784.254209121635,
+          "velocity": 440.83576174477497
+        },
+        {
+          "latitude": 35.50344383512664,
+          "longitude": 126.74032494659009,
+          "altitude": 31384.777212023986,
+          "velocity": 453.66615424800347
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 439.6910089345887,
+        "mean_altitude": 31775.95744951059,
+        "lateral_deviation": 0.03438351266385898
+      }
+    },
+    {
+      "icao24": "7c0071",
+      "callsign": "A320113",
+      "aircraft_type": "A320",
+      "timestamp": 1588349700,
+      "time_str": "2020-05-01 16:15:00",
+      "positions": [
+        {
+          "latitude": 36.724973999897195,
+          "longitude": 126.8175723415478,
+          "altitude": 33809.99168478302,
+          "velocity": 427.15467010559036
+        },
+        {
+          "latitude": 35.50245934902055,
+          "longitude": 126.74064078643346,
+          "altitude": 34430.31390012778,
+          "velocity": 438.66835804129244
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 432.8624404194259,
+        "mean_altitude": 33788.350276761324,
+        "lateral_deviation": -0.0640650979452869
+      }
+    },
+    {
+      "icao24": "7c0072",
+      "callsign": "B738114",
+      "aircraft_type": "B738",
+      "timestamp": 1588319520,
+      "time_str": "2020-05-01 07:52:00",
+      "positions": [
+        {
+          "latitude": 36.7217689902786,
+          "longitude": 126.82447565503294,
+          "altitude": 35813.94240631344,
+          "velocity": 480.55199468330204
+        },
+        {
+          "latitude": 35.50206145312021,
+          "longitude": 126.74232894319648,
+          "altitude": 37154.75367592944,
+          "velocity": 473.51588766094426
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 477.9333222919761,
+        "mean_altitude": 36543.33527776552,
+        "lateral_deviation": -0.10385468797905816
+      }
+    },
+    {
+      "icao24": "7c0073",
+      "callsign": "B738115",
+      "aircraft_type": "B738",
+      "timestamp": 1588355160,
+      "time_str": "2020-05-01 17:46:00",
+      "positions": [
+        {
+          "latitude": 36.72393641359394,
+          "longitude": 126.82942079961708,
+          "altitude": 36789.81392319275,
+          "velocity": 426.3569426570516
+        },
+        {
+          "latitude": 35.50305525832495,
+          "longitude": 126.74286972502362,
+          "altitude": 34961.343106684166,
+          "velocity": 428.5122056750592
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 435.1757494240057,
+        "mean_altitude": 35889.3170077522,
+        "lateral_deviation": -0.004474167505358056
+      }
+    },
+    {
+      "icao24": "7c0074",
+      "callsign": "B77W116",
+      "aircraft_type": "B77W",
+      "timestamp": 1588321620,
+      "time_str": "2020-05-01 08:27:00",
+      "positions": [
+        {
+          "latitude": 36.72132373248402,
+          "longitude": 126.8281540794825,
+          "altitude": 32770.2338182419,
+          "velocity": 479.35320615999075
+        },
+        {
+          "latitude": 35.502271428462805,
+          "longitude": 126.74108669025546,
+          "altitude": 33713.61979835034,
+          "velocity": 471.67268368778065
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 475.26597326534153,
+        "mean_altitude": 33839.32096354752,
+        "lateral_deviation": -0.08285715371987334
+      }
+    },
+    {
+      "icao24": "7c0075",
+      "callsign": "A321117",
+      "aircraft_type": "A321",
+      "timestamp": 1588344480,
+      "time_str": "2020-05-01 14:48:00",
+      "positions": [
+        {
+          "latitude": 36.72407618270091,
+          "longitude": 126.82550260350683,
+          "altitude": 33865.09252233714,
+          "velocity": 437.69206010918384
+        },
+        {
+          "latitude": 35.49953478739808,
+          "longitude": 126.74525920189828,
+          "altitude": 33948.635922066635,
+          "velocity": 432.29789573233376
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 449.9899080688622,
+        "mean_altitude": 33681.36153047914,
+        "lateral_deviation": -0.35652126019213426
+      }
+    },
+    {
+      "icao24": "7c0076",
+      "callsign": "B77W118",
+      "aircraft_type": "B77W",
+      "timestamp": 1588330560,
+      "time_str": "2020-05-01 10:56:00",
+      "positions": [
+        {
+          "latitude": 36.72362617571539,
+          "longitude": 126.82475147801274,
+          "altitude": 36377.835165670236,
+          "velocity": 461.44862681167854
+        },
+        {
+          "latitude": 35.50338948905461,
+          "longitude": 126.74553780819662,
+          "altitude": 36217.103902416784,
+          "velocity": 466.3880694988606
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 469.1138486905825,
+        "mean_altitude": 36368.137435633704,
+        "lateral_deviation": 0.028948905461162265
+      }
+    },
+    {
+      "icao24": "7c0077",
+      "callsign": "B77W119",
+      "aircraft_type": "B77W",
+      "timestamp": 1588333140,
+      "time_str": "2020-05-01 11:39:00",
+      "positions": [
+        {
+          "latitude": 36.72552702951112,
+          "longitude": 126.81793019193891,
+          "altitude": 34881.92870058863,
+          "velocity": 447.7427830685036
+        },
+        {
+          "latitude": 35.502728033812154,
+          "longitude": 126.72958892820354,
+          "altitude": 35138.918736946114,
+          "velocity": 434.6251425588663
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 443.0182734349677,
+        "mean_altitude": 34665.25378806519,
+        "lateral_deviation": -0.037196618785122336
+      }
+    },
+    {
+      "icao24": "7c0078",
+      "callsign": "B738120",
+      "aircraft_type": "B738",
+      "timestamp": 1588324740,
+      "time_str": "2020-05-01 09:19:00",
+      "positions": [
+        {
+          "latitude": 36.7223969658605,
+          "longitude": 126.82935681158075,
+          "altitude": 36001.360643522865,
+          "velocity": 420.6847616370743
+        },
+        {
+          "latitude": 35.50300016402689,
+          "longitude": 126.74278596738732,
+          "altitude": 35932.37045375986,
+          "velocity": 412.05533434055644
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 416.6274366971821,
+        "mean_altitude": 35688.2836364307,
+        "lateral_deviation": -0.009983597311119224
+      }
+    },
+    {
+      "icao24": "7c0079",
+      "callsign": "A321121",
+      "aircraft_type": "A321",
+      "timestamp": 1588355220,
+      "time_str": "2020-05-01 17:47:00",
+      "positions": [
+        {
+          "latitude": 36.72375923051654,
+          "longitude": 126.82284107756566,
+          "altitude": 32610.635589611953,
+          "velocity": 433.4475581321517
+        },
+        {
+          "latitude": 35.50282014183477,
+          "longitude": 126.740273085444,
+          "altitude": 32997.07709591203,
+          "velocity": 433.22244638674294
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 427.12028410943367,
+        "mean_altitude": 33439.72122642445,
+        "lateral_deviation": -0.027985816523386237
+      }
+    },
+    {
+      "icao24": "7c007a",
+      "callsign": "A333122",
+      "aircraft_type": "A333",
+      "timestamp": 1588332240,
+      "time_str": "2020-05-01 11:24:00",
+      "positions": [
+        {
+          "latitude": 36.72314924120431,
+          "longitude": 126.82048595369025,
+          "altitude": 32784.90256021871,
+          "velocity": 463.9325930556404
+        },
+        {
+          "latitude": 35.502159772456984,
+          "longitude": 126.7384242203457,
+          "altitude": 31196.587523650673,
+          "velocity": 444.52714526695195
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 451.0055409577722,
+        "mean_altitude": 32690.162476949314,
+        "lateral_deviation": -0.09402275430200603
+      }
+    },
+    {
+      "icao24": "7c007b",
+      "callsign": "B738123",
+      "aircraft_type": "B738",
+      "timestamp": 1588316820,
+      "time_str": "2020-05-01 07:07:00",
+      "positions": [
+        {
+          "latitude": 36.719425975202846,
+          "longitude": 126.82203744325356,
+          "altitude": 33813.75468043372,
+          "velocity": 475.0065620568747
+        },
+        {
+          "latitude": 35.502765239096085,
+          "longitude": 126.74241139999357,
+          "altitude": 33436.68055487826,
+          "velocity": 458.0417707492496
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 459.85203146524185,
+        "mean_altitude": 33412.679032692366,
+        "lateral_deviation": -0.033476090391538676
+      }
+    },
+    {
+      "icao24": "7c007c",
+      "callsign": "A320124",
+      "aircraft_type": "A320",
+      "timestamp": 1588328580,
+      "time_str": "2020-05-01 10:23:00",
+      "positions": [
+        {
+          "latitude": 36.72329122619659,
+          "longitude": 126.82146963686861,
+          "altitude": 32962.90278715587,
+          "velocity": 495.9805680702193
+        },
+        {
+          "latitude": 35.50205924411519,
+          "longitude": 126.74503004608954,
+          "altitude": 32213.332749744077,
+          "velocity": 489.9716067020463
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 490.13994525341775,
+        "mean_altitude": 33320.207095530524,
+        "lateral_deviation": -0.10407558848167754
+      }
+    },
+    {
+      "icao24": "7c007d",
+      "callsign": "A333125",
+      "aircraft_type": "A333",
+      "timestamp": 1588335900,
+      "time_str": "2020-05-01 12:25:00",
+      "positions": [
+        {
+          "latitude": 36.72406817330719,
+          "longitude": 126.82650924920377,
+          "altitude": 36887.19498053476,
+          "velocity": 436.11573271212757
+        },
+        {
+          "latitude": 35.50412136421135,
+          "longitude": 126.73889205575884,
+          "altitude": 35870.76132486911,
+          "velocity": 442.80153036879074
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 445.2446102547449,
+        "mean_altitude": 35957.7683627094,
+        "lateral_deviation": 0.1021364211349511
+      }
+    },
+    {
+      "icao24": "7c007e",
+      "callsign": "A321126",
+      "aircraft_type": "A321",
+      "timestamp": 1588313040,
+      "time_str": "2020-05-01 06:04:00",
+      "positions": [
+        {
+          "latitude": 36.72214540936724,
+          "longitude": 126.82714339425408,
+          "altitude": 35502.44557246313,
+          "velocity": 487.89066824582954
+        },
+        {
+          "latitude": 35.50420637286239,
+          "longitude": 126.73723757839,
+          "altitude": 36490.5869005479,
+          "velocity": 491.8373627410226
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 497.86707804681697,
+        "mean_altitude": 35281.94144495098,
+        "lateral_deviation": 0.11063728623873083
+      }
+    },
+    {
+      "icao24": "7c007f",
+      "callsign": "A333127",
+      "aircraft_type": "A333",
+      "timestamp": 1588358580,
+      "time_str": "2020-05-01 18:43:00",
+      "positions": [
+        {
+          "latitude": 36.72310131966962,
+          "longitude": 126.82541353894605,
+          "altitude": 35004.290953125295,
+          "velocity": 445.6967442895151
+        },
+        {
+          "latitude": 35.501940244288896,
+          "longitude": 126.74213514344174,
+          "altitude": 34321.82419389696,
+          "velocity": 456.1139849599876
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 462.87666724205394,
+        "mean_altitude": 35014.60896624667,
+        "lateral_deviation": -0.1159755711106442
+      }
+    },
+    {
+      "icao24": "7c0080",
+      "callsign": "A320128",
+      "aircraft_type": "A320",
+      "timestamp": 1588351920,
+      "time_str": "2020-05-01 16:52:00",
+      "positions": [
+        {
+          "latitude": 36.719710765984765,
+          "longitude": 126.8283419413335,
+          "altitude": 32912.35624505705,
+          "velocity": 469.92738296318646
+        },
+        {
+          "latitude": 35.500046184149824,
+          "longitude": 126.7344881489595,
+          "altitude": 33396.631748905056,
+          "velocity": 448.25028031795614
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 460.2546880004169,
+        "mean_altitude": 33091.772063410586,
+        "lateral_deviation": -0.30538158501833357
+      }
+    },
+    {
+      "icao24": "7c0081",
+      "callsign": "A321129",
+      "aircraft_type": "A321",
+      "timestamp": 1588348980,
+      "time_str": "2020-05-01 16:03:00",
+      "positions": [
+        {
+          "latitude": 36.72302159817265,
+          "longitude": 126.82192918924561,
+          "altitude": 37867.42115658074,
+          "velocity": 446.3575758436702
+        },
+        {
+          "latitude": 35.502515708768655,
+          "longitude": 126.74372799099358,
+          "altitude": 36887.61346065025,
+          "velocity": 446.337498260676
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 455.7808321849996,
+        "mean_altitude": 37963.09997646051,
+        "lateral_deviation": -0.058429123134742356
+      }
+    },
+    {
+      "icao24": "7c0082",
+      "callsign": "B738130",
+      "aircraft_type": "B738",
+      "timestamp": 1588354020,
+      "time_str": "2020-05-01 17:27:00",
+      "positions": [
+        {
+          "latitude": 36.723769097805736,
+          "longitude": 126.82526044899808,
+          "altitude": 34204.42223680128,
+          "velocity": 466.06878248242884
+        },
+        {
+          "latitude": 35.50263323970294,
+          "longitude": 126.73339166032336,
+          "altitude": 34316.539951873856,
+          "velocity": 470.18507210753796
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 463.5479136276633,
+        "mean_altitude": 33894.578524747216,
+        "lateral_deviation": -0.04667602970636512
+      }
+    },
+    {
+      "icao24": "7c0083",
+      "callsign": "B77W131",
+      "aircraft_type": "B77W",
+      "timestamp": 1588342200,
+      "time_str": "2020-05-01 14:10:00",
+      "positions": [
+        {
+          "latitude": 36.72356302691897,
+          "longitude": 126.82951847307505,
+          "altitude": 35691.44209783592,
+          "velocity": 416.3476305954235
+        },
+        {
+          "latitude": 35.50268700651028,
+          "longitude": 126.73925363685508,
+          "altitude": 36768.68909000851,
+          "velocity": 428.2261331545542
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 417.5254880324499,
+        "mean_altitude": 36476.92373585456,
+        "lateral_deviation": -0.04129934897232586
+      }
+    },
+    {
+      "icao24": "7c0084",
+      "callsign": "A321132",
+      "aircraft_type": "A321",
+      "timestamp": 1588345560,
+      "time_str": "2020-05-01 15:06:00",
+      "positions": [
+        {
+          "latitude": 36.72187647856114,
+          "longitude": 126.81233165856403,
+          "altitude": 34462.70515460701,
+          "velocity": 450.07019021732094
+        },
+        {
+          "latitude": 35.500641801104194,
+          "longitude": 126.74703725527331,
+          "altitude": 33815.83178676584,
+          "velocity": 445.7739106657984
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 439.2006102292081,
+        "mean_altitude": 34283.83601206954,
+        "lateral_deviation": -0.24581988958089523
+      }
+    },
+    {
+      "icao24": "7c0085",
+      "callsign": "A333133",
+      "aircraft_type": "A333",
+      "timestamp": 1588354080,
+      "time_str": "2020-05-01 17:28:00",
+      "positions": [
+        {
+          "latitude": 36.72328042788228,
+          "longitude": 126.83223957591564,
+          "altitude": 32758.116565082684,
+          "velocity": 469.8519169170087
+        },
+        {
+          "latitude": 35.502435829158216,
+          "longitude": 126.73864163718781,
+          "altitude": 33725.65682942813,
+          "velocity": 470.83465879119103
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 462.37590677221897,
+        "mean_altitude": 33002.872003164215,
+        "lateral_deviation": -0.0664170841787311
+      }
+    },
+    {
+      "icao24": "7c0086",
+      "callsign": "A320134",
+      "aircraft_type": "A320",
+      "timestamp": 1588325340,
+      "time_str": "2020-05-01 09:29:00",
+      "positions": [
+        {
+          "latitude": 36.7218470814343,
+          "longitude": 126.82403274883012,
+          "altitude": 36021.885961907945,
+          "velocity": 435.98270216097893
+        },
+        {
+          "latitude": 35.50309623407241,
+          "longitude": 126.73296361638337,
+          "altitude": 35010.36604168589,
+          "velocity": 428.9915403088357
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 426.75555578681315,
+        "mean_altitude": 35256.61483591083,
+        "lateral_deviation": -0.00037659275976224756
+      }
+    },
+    {
+      "icao24": "7c0087",
+      "callsign": "A321135",
+      "aircraft_type": "A321",
+      "timestamp": 1588313040,
+      "time_str": "2020-05-01 06:04:00",
+      "positions": [
+        {
+          "latitude": 36.723902537157976,
+          "longitude": 126.82288451157122,
+          "altitude": 31883.128781889533,
+          "velocity": 478.5546942451333
+        },
+        {
+          "latitude": 35.50278712605772,
+          "longitude": 126.7408125787727,
+          "altitude": 32004.00818283647,
+          "velocity": 480.47511900779693
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 480.74736140271625,
+        "mean_altitude": 31799.958011482893,
+        "lateral_deviation": -0.031287394228164164
+      }
+    },
+    {
+      "icao24": "7c0088",
+      "callsign": "A320136",
+      "aircraft_type": "A320",
+      "timestamp": 1588355280,
+      "time_str": "2020-05-01 17:48:00",
+      "positions": [
+        {
+          "latitude": 36.72391853731143,
+          "longitude": 126.82336838106043,
+          "altitude": 32209.56507992942,
+          "velocity": 471.18307973157704
+        },
+        {
+          "latitude": 35.503518367987425,
+          "longitude": 126.73319457091824,
+          "altitude": 32255.588652211238,
+          "velocity": 471.99102860077323
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 477.76040655738933,
+        "mean_altitude": 33128.62793915595,
+        "lateral_deviation": 0.04183679874208075
+      }
+    },
+    {
+      "icao24": "7c0089",
+      "callsign": "B77W137",
+      "aircraft_type": "B77W",
+      "timestamp": 1588319460,
+      "time_str": "2020-05-01 07:51:00",
+      "positions": [
+        {
+          "latitude": 36.72411807628835,
+          "longitude": 126.82134427389634,
+          "altitude": 38192.19201851637,
+          "velocity": 494.93318727373673
+        },
+        {
+          "latitude": 35.5028330510462,
+          "longitude": 126.75197887634069,
+          "altitude": 39111.35486123709,
+          "velocity": 489.3452322049182
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 500,
+        "mean_altitude": 38763.0220317438,
+        "lateral_deviation": -0.026694895380382607
+      }
+    },
+    {
+      "icao24": "7c008a",
+      "callsign": "A320138",
+      "aircraft_type": "A320",
+      "timestamp": 1588334100,
+      "time_str": "2020-05-01 11:55:00",
+      "positions": [
+        {
+          "latitude": 36.72289444327653,
+          "longitude": 126.82997782755699,
+          "altitude": 34146.64975335372,
+          "velocity": 473.5585213112189
+        },
+        {
+          "latitude": 35.501838384573176,
+          "longitude": 126.73410909449724,
+          "altitude": 34035.90195895604,
+          "velocity": 474.4168611734645
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 471.08052414312766,
+        "mean_altitude": 33715.46975660018,
+        "lateral_deviation": -0.1261615426827125
+      }
+    },
+    {
+      "icao24": "7c008b",
+      "callsign": "B738139",
+      "aircraft_type": "B738",
+      "timestamp": 1588360140,
+      "time_str": "2020-05-01 19:09:00",
+      "positions": [
+        {
+          "latitude": 36.7244810634159,
+          "longitude": 126.82357990063893,
+          "altitude": 33189.38336246257,
+          "velocity": 438.58606977896704
+        },
+        {
+          "latitude": 35.50306751784244,
+          "longitude": 126.74085540101677,
+          "altitude": 33377.57572526768,
+          "velocity": 452.9169364220847
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 445.16908766001364,
+        "mean_altitude": 33174.51376168661,
+        "lateral_deviation": -0.0032482157567590144
+      }
+    },
+    {
+      "icao24": "7c008c",
+      "callsign": "B738140",
+      "aircraft_type": "B738",
+      "timestamp": 1588314480,
+      "time_str": "2020-05-01 06:28:00",
+      "positions": [
+        {
+          "latitude": 36.72251668439129,
+          "longitude": 126.83071390325956,
+          "altitude": 36753.31717852166,
+          "velocity": 433.6714216811068
+        },
+        {
+          "latitude": 35.50356558541507,
+          "longitude": 126.7461012389084,
+          "altitude": 36598.34454106396,
+          "velocity": 439.13477662529203
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 431.0405302150886,
+        "mean_altitude": 36296.48187390066,
+        "lateral_deviation": 0.04655854150615983
+      }
+    },
+    {
+      "icao24": "7c008d",
+      "callsign": "A321141",
+      "aircraft_type": "A321",
+      "timestamp": 1588342740,
+      "time_str": "2020-05-01 14:19:00",
+      "positions": [
+        {
+          "latitude": 36.72279613521282,
+          "longitude": 126.82936851868784,
+          "altitude": 33761.677571596476,
+          "velocity": 473.3573672932737
+        },
+        {
+          "latitude": 35.50257367050549,
+          "longitude": 126.73813975662611,
+          "altitude": 34032.747611047154,
+          "velocity": 481.76794827389887
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 469.2494873707725,
+        "mean_altitude": 34101.63676223149,
+        "lateral_deviation": -0.05263294945148505
+      }
+    },
+    {
+      "icao24": "7c008e",
+      "callsign": "A321142",
+      "aircraft_type": "A321",
+      "timestamp": 1588349640,
+      "time_str": "2020-05-01 16:14:00",
+      "positions": [
+        {
+          "latitude": 36.7242643421013,
+          "longitude": 126.82196004804942,
+          "altitude": 35451.45767692105,
+          "velocity": 455.22578739331504
+        },
+        {
+          "latitude": 35.5020168376045,
+          "longitude": 126.7346394582658,
+          "altitude": 35421.31729118314,
+          "velocity": 484.7148015056763
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 467.3210332566822,
+        "mean_altitude": 35485.88454086867,
+        "lateral_deviation": -0.10831623955000383
+      }
+    },
+    {
+      "icao24": "7c008f",
+      "callsign": "B77W143",
+      "aircraft_type": "B77W",
+      "timestamp": 1588329540,
+      "time_str": "2020-05-01 10:39:00",
+      "positions": [
+        {
+          "latitude": 36.7217568364316,
+          "longitude": 126.82337454624644,
+          "altitude": 33409.52757182252,
+          "velocity": 456.362015439966
+        },
+        {
+          "latitude": 35.50436505739417,
+          "longitude": 126.7335716542815,
+          "altitude": 33916.038885072776,
+          "velocity": 457.9969430679386
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 459.4480205340498,
+        "mean_altitude": 33431.26974648423,
+        "lateral_deviation": 0.12650573941666363
+      }
+    },
+    {
+      "icao24": "7c0090",
+      "callsign": "A320144",
+      "aircraft_type": "A320",
+      "timestamp": 1588358040,
+      "time_str": "2020-05-01 18:34:00",
+      "positions": [
+        {
+          "latitude": 36.72098207302257,
+          "longitude": 126.81764534064231,
+          "altitude": 37032.24951287236,
+          "velocity": 428.1955520022551
+        },
+        {
+          "latitude": 35.50274605607384,
+          "longitude": 126.7485490024412,
+          "altitude": 36750.85910426757,
+          "velocity": 435.23179048585916
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 431.4481153423993,
+        "mean_altitude": 36983.338554029906,
+        "lateral_deviation": -0.03539439261667964
+      }
+    },
+    {
+      "icao24": "7c0091",
+      "callsign": "B738145",
+      "aircraft_type": "B738",
+      "timestamp": 1588341840,
+      "time_str": "2020-05-01 14:04:00",
+      "positions": [
+        {
+          "latitude": 36.72458080740191,
+          "longitude": 126.82834902644424,
+          "altitude": 38225.299293985365,
+          "velocity": 455.81599031342614
+        },
+        {
+          "latitude": 35.50458416097963,
+          "longitude": 126.74014533863975,
+          "altitude": 38215.82707835042,
+          "velocity": 453.6984812280457
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 457.8396690658534,
+        "mean_altitude": 37956.23946897884,
+        "lateral_deviation": 0.14841609796300323
+      }
+    },
+    {
+      "icao24": "7c0092",
+      "callsign": "A321146",
+      "aircraft_type": "A321",
+      "timestamp": 1588349100,
+      "time_str": "2020-05-01 16:05:00",
+      "positions": [
+        {
+          "latitude": 36.72222001319195,
+          "longitude": 126.82716899205924,
+          "altitude": 37626.026093409986,
+          "velocity": 413.41875551810165
+        },
+        {
+          "latitude": 35.50073700227072,
+          "longitude": 126.73714437211659,
+          "altitude": 37729.373758267386,
+          "velocity": 411.4906398816558
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 414.4227251444826,
+        "mean_altitude": 37919.42491138148,
+        "lateral_deviation": -0.23629977292869178
+      }
+    },
+    {
+      "icao24": "7c0093",
+      "callsign": "B738147",
+      "aircraft_type": "B738",
+      "timestamp": 1588326540,
+      "time_str": "2020-05-01 09:49:00",
+      "positions": [
+        {
+          "latitude": 36.72428280794553,
+          "longitude": 126.81268722603882,
+          "altitude": 34960.167873508464,
+          "velocity": 448.6518532529519
+        },
+        {
+          "latitude": 35.50233368257135,
+          "longitude": 126.7423441659962,
+          "altitude": 35951.96487626481,
+          "velocity": 473.06010692589155
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 467.2402815177649,
+        "mean_altitude": 35338.728517686526,
+        "lateral_deviation": -0.07663174286558457
+      }
+    },
+    {
+      "icao24": "7c0094",
+      "callsign": "B77W148",
+      "aircraft_type": "B77W",
+      "timestamp": 1588354380,
+      "time_str": "2020-05-01 17:33:00",
+      "positions": [
+        {
+          "latitude": 36.72568052458786,
+          "longitude": 126.82754424998487,
+          "altitude": 32312.083997032412,
+          "velocity": 449.39878423619797
+        },
+        {
+          "latitude": 35.5050423429212,
+          "longitude": 126.73939224269775,
+          "altitude": 33200.42571642143,
+          "velocity": 451.8625821330916
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 445.35335316110803,
+        "mean_altitude": 33034.376358625406,
+        "lateral_deviation": 0.19423429211962248
+      }
+    },
+    {
+      "icao24": "7c0095",
+      "callsign": "A320149",
+      "aircraft_type": "A320",
+      "timestamp": 1588327800,
+      "time_str": "2020-05-01 10:10:00",
+      "positions": [
+        {
+          "latitude": 36.721236869832914,
+          "longitude": 126.81547923368186,
+          "altitude": 30560.01596565995,
+          "velocity": 454.0554630374522
+        },
+        {
+          "latitude": 35.50515486689636,
+          "longitude": 126.73995102980142,
+          "altitude": 31581.1906559707,
+          "velocity": 463.58228865521215
+        }
+      ],
+      "statistics": {
+        "mean_velocity": 457.76140651097694,
+        "mean_altitude": 31488.072995263716,
+        "lateral_deviation": 0.20548668963609548
+      }
+    }
+  ]
+}
